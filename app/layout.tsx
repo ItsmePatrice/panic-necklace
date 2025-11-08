@@ -14,12 +14,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Velyne - A Necklace That Keeps You Safe",
-  description: "Elegant, discreet, and connected panic-button necklace. Built to protect you when it matters most. Join our waitlist for early access.",
-  keywords: ["safety", "panic button", "smart jewelry", "wearable technology", "personal security", "Velyne"],
+  title: "Velyne - Discreta: A Necklace That Keeps You Safe",
+  description: "Meet Discreta - an elegant, discreet, and connected panic-button necklace. Built to protect you when it matters most. Join our waitlist for early access.",
+  keywords: ["safety", "panic button", "smart jewelry", "wearable technology", "personal security", "Velyne", "Discreta"],
   openGraph: {
-    title: "Velyne - A Necklace That Keeps You Safe",
-    description: "Elegant, discreet, and connected panic-button necklace. Built to protect you when it matters most.",
+    title: "Velyne - Discreta: A Necklace That Keeps You Safe",
+    description: "Meet Discreta - an elegant, discreet, and connected panic-button necklace. Built to protect you when it matters most.",
     type: "website",
   },
 };

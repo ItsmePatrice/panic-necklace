@@ -8,7 +8,7 @@ export const translations = {
       title: "A Necklace That",
       titleHighlight: "Keeps You Safe",
       subtitle: "Elegant, discreet, and connected — built to protect you when it matters most.",
-      ctaButton: "Discover Velyne",
+      ctaButton: "Discover Discreta",
       scrollHint: "Scroll"
     },
     
@@ -28,7 +28,7 @@ export const translations = {
     
     // Product Section
     product: {
-      title: "Meet Velyne",
+      title: "Meet Discreta",
       subtitle: "Crafted with precision, designed for protection",
       placeholder: "3D Model Coming Soon",
       interactiveView: "Interactive 360° view",
@@ -83,7 +83,7 @@ export const translations = {
       title: "Un Collier Qui",
       titleHighlight: "Vous Protège",
       subtitle: "Élégant, discret et connecté — conçu pour vous protéger quand cela compte le plus.",
-      ctaButton: "Découvrir Velyne",
+      ctaButton: "Découvrir Discreta",
       scrollHint: "Défiler"
     },
     
@@ -103,7 +103,7 @@ export const translations = {
     
     // Product Section
     product: {
-      title: "Rencontrez Velyne",
+      title: "Rencontrez Discreta",
       subtitle: "Fabriqué avec précision, conçu pour la protection",
       placeholder: "Modèle 3D Bientôt Disponible",
       interactiveView: "Vue interactive 360°",
