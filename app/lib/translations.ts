@@ -7,7 +7,7 @@ export const translations = {
     hero: {
       title: "A Necklace That",
       titleHighlight: "Keeps You Safe",
-      emphasizeBold: false,
+      emphasizeBold: true,
       subtitle: "Elegant, discreet, and connected — built to protect you when it matters most.",
       ctaButton: "Discover Discreta",
       scrollHint: "Scroll"
