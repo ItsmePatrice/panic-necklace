@@ -68,9 +68,9 @@ export const translations = {
     
     // Footer
     footer: {
-      brandName: "Velyne",
+      brandName: "Discreta",
       tagline: "Making safety beautiful, one necklace at a time.",
-      copyright: "© 2024 Velyne. All rights reserved. | Privacy Policy | Terms of Service"
+      copyright: "© 2024 Discreta. All rights reserved. | Privacy Policy | Terms of Service"
     }
   },
   
@@ -143,9 +143,9 @@ export const translations = {
     
     // Footer
     footer: {
-      brandName: "Velyne",
+      brandName: "Discreta",
       tagline: "Rendre la sécurité belle, un collier à la fois.",
-      copyright: "© 2024 Velyne. Tous droits réservés. | Politique de Confidentialité | Conditions d'Utilisation"
+      copyright: "© 2024 Discreta. Tous droits réservés. | Politique de Confidentialité | Conditions d'Utilisation"
     }
   }
 } as const;

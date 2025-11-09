@@ -27,6 +27,7 @@ export default function WaitlistForm() {
       if (response.ok) {
         setIsSubmitted(true);
         setEmail('');
+        console.log('Successfully joined the waitlist');
       } else {
         const data = await response.json();
         setError(data.message || t.waitlist.errors.server);

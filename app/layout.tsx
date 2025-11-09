@@ -14,11 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Velyne - Discreta: A Necklace That Keeps You Safe",
+  title: "Discreta: A Necklace That Keeps You Safe",
   description: "Meet Discreta - an elegant, discreet, and connected panic-button necklace. Built to protect you when it matters most. Join our waitlist for early access.",
-  keywords: ["safety", "panic button", "smart jewelry", "wearable technology", "personal security", "Velyne", "Discreta"],
+  keywords: ["safety", "panic button", "smart jewelry", "wearable technology", "personal security", "Discreta"],
   openGraph: {
-    title: "Velyne - Discreta: A Necklace That Keeps You Safe",
+  title: "Discreta: A Necklace That Keeps You Safe",
     description: "Meet Discreta - an elegant, discreet, and connected panic-button necklace. Built to protect you when it matters most.",
     type: "website",
   },
