@@ -3,7 +3,7 @@
 import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Hero() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   const scrollToProduct = () => {
     const productSection = document.querySelector('#product-section');
@@ -28,11 +28,15 @@ export default function Hero() {
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         {/* Main heading with staggered animation */}
         <div className="animate-fade-in-up">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-light tracking-tight text-white mb-4 sm:mb-6">
+          <h1 className={`text-4xl sm:text-5xl md:text-7xl tracking-tight text-white mb-4 sm:mb-6 ${language === 'fr' ? 'font-bold' : 'font-light'}`}>
             {t.hero.title}{' '}
-            <span className="font-medium bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-              {t.hero.titleHighlight}
-            </span>
+            {language === 'fr' ? (
+              <span className="font-bold text-white">{t.hero.titleHighlight}</span>
+            ) : (
+              <span className="font-medium bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+                {t.hero.titleHighlight}
+              </span>
+            )}
           </h1>
         </div>
         
