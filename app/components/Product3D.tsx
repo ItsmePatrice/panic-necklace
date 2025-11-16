@@ -18,16 +18,43 @@ export default function Product3D() {
           </p>
         </div>
         
-        {/* Product Image */}
-        <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl h-80 sm:h-96 md:h-[500px] flex items-center justify-center shadow-xl overflow-hidden border border-gray-700">
-          <Image 
-            src="/earliest_best_prototype.png" 
-            alt="SafeGuard Smart Panic Necklace Prototype"
-            width={800}
-            height={600}
-            className="max-w-full max-h-full object-contain p-4 sm:p-8"
-            priority
-          />
+        {/* Product Images: show both versions */}
+        <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl shadow-xl overflow-hidden border border-gray-700 p-4 sm:p-8">
+          <div className="flex flex-col gap-6 items-center justify-center">
+            <figure className="w-full flex flex-col items-center justify-center">
+              <Image
+                src="/earliest_best_prototype.png"
+                alt={t.product.images?.necklace?.title ?? 'Necklace'}
+                width={800}
+                height={600}
+                className="max-w-full h-auto object-contain"
+                priority
+              />
+              <figcaption className="text-center mt-3">
+                <div className="text-sm font-semibold text-white">{t.product.images.necklace.title}</div>
+                {t.product.images.necklace.caption ? (
+                  <div className="text-xs text-gray-400">{t.product.images.necklace.caption}</div>
+                ) : null}
+              </figcaption>
+            </figure>
+
+            <figure className="w-full flex flex-col items-center justify-center">
+              <Image
+                src="/best_bracelet_prototype_worn_by_lady.png"
+                alt={t.product.images?.bracelet?.title ?? 'Bracelet'}
+                width={800}
+                height={600}
+                className="max-w-full h-auto object-contain"
+                priority
+              />
+              <figcaption className="text-center mt-3">
+                <div className="text-sm font-semibold text-white">{t.product.images.bracelet.title}</div>
+                {t.product.images.bracelet.caption ? (
+                  <div className="text-xs text-gray-400">{t.product.images.bracelet.caption}</div>
+                ) : null}
+              </figcaption>
+            </figure>
+          </div>
         </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mt-8 sm:mt-12">

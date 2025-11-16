@@ -5,7 +5,7 @@ export const translations = {
     
     // Hero Section
     hero: {
-      title: "A Necklace That",
+      title: "Juwelry That",
       titleHighlight: "Keeps You Safe",
       emphasizeBold: true,
       subtitle: "Elegant, discreet, and connected — built to protect you when it matters most.",
@@ -19,7 +19,7 @@ export const translations = {
       content: {
         line1: "Your safety is our priority.",
         line2: "Born in Montréal, this idea came to life with one clear purpose — to help women feel safe without sacrificing elegance.",
-        line3: "Designed by an engineer who believes protection should feel natural, effortless, and beautiful, this necklace combines technology and design in one discreet piece you can wear every day.",
+        line3: "Designed by an engineer who believes protection should feel natural, effortless, and beautiful, this juwelry combines technology and design in one discreet piece you can wear every day.",
         line4: "Whether you're walking to your car, showing a home, or coming back late at night, two discreet touches silently send an alert — sharing your live location with those who can help.",
         line5: "No phone. No noise. Just peace of mind.",
         line6: "Confidence. Safety. Style.",
@@ -31,6 +31,16 @@ export const translations = {
     product: {
       title: "Meet Discreta",
       subtitle: "Crafted with precision, designed for protection",
+      images: {
+        necklace: {
+          title: "Necklace Version",
+          caption: ""
+        },
+        bracelet: {
+          title: "Bracelet Version",
+          caption: ""
+        }
+      },
       placeholder: "3D Model Coming Soon",
       interactiveView: "Interactive 360° view",
       features: {
@@ -70,7 +80,7 @@ export const translations = {
     // Footer
     footer: {
       brandName: "Discreta",
-      tagline: "Making safety beautiful, one necklace at a time.",
+      tagline: "Making safety beautiful, one piece of juwelry at a time.",
       copyright: "© 2024 Discreta. All rights reserved. | Privacy Policy | Terms of Service"
     }
   },
@@ -81,7 +91,7 @@ export const translations = {
     
     // Hero Section
     hero: {
-      title: "Un Collier Qui",
+      title: "Un Bijou Qui",
       titleHighlight: "Vous Protège",
       emphasizeBold: true,
       subtitle: "Élégant, discret et connecté — conçu pour vous protéger quand cela compte le plus.",
@@ -95,7 +105,7 @@ export const translations = {
       content: {
         line1: "Votre sécurité est notre priorité.",
         line2: "Né à Montréal, cette idée a pris vie avec un objectif clair — aider les femmes à se sentir en sécurité sans sacrifier l'élégance.",
-        line3: "Conçu par un ingénieur qui croit que la protection devrait être naturelle, sans effort et belle, ce collier combine technologie et design en une pièce discrète que vous pouvez porter tous les jours.",
+        line3: "Conçu par un ingénieur qui croit que la protection doit être naturelle, sans effort et élégante, ce bijou combine technologie et design en une pièce discrète que vous pouvez porter tous les jours.",
         line4: "Que vous marchiez vers votre voiture, fassiez visiter une maison ou rentriez tard le soir, deux touches discrètes envoient silencieusement une alerte — partageant votre localisation en temps réel avec ceux qui peuvent vous aider.",
         line5: "Pas de téléphone. Pas de bruit. Juste la tranquillité d'esprit.",
         line6: "Confiance. Sécurité. Style.",
@@ -107,6 +117,16 @@ export const translations = {
     product: {
       title: "Rencontrez Discreta",
       subtitle: "Fabriqué avec précision, conçu pour la protection",
+      images: {
+        necklace: {
+          title: "Version Collier",
+          caption: ""
+        },
+        bracelet: {
+          title: "Version Bracelet",
+          caption: ""
+        }
+      },
       placeholder: "Modèle 3D Bientôt Disponible",
       interactiveView: "Vue interactive 360°",
       features: {
@@ -146,7 +166,7 @@ export const translations = {
     // Footer
     footer: {
       brandName: "Discreta",
-      tagline: "Rendre la sécurité belle, un collier à la fois.",
+      tagline: "Rendre la sécurité belle, un bijou à la fois.",
       copyright: "© 2024 Discreta. Tous droits réservés. | Politique de Confidentialité | Conditions d'Utilisation"
     }
   }
