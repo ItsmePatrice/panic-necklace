@@ -40,7 +40,7 @@ export default function Product3D() {
 
             <figure className="w-full flex flex-col items-center justify-center">
               <Image
-                src="/best_bracelet_prototype_worn_by_lady.png"
+                src="/best_prototype_bracelet_all_gold.png"
                 alt={t.product.images?.bracelet?.title ?? 'Bracelet'}
                 width={800}
                 height={600}
