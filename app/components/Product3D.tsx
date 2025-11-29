@@ -23,24 +23,7 @@ export default function Product3D() {
           <div className="flex flex-col gap-6 items-center justify-center">
             <figure className="w-full flex flex-col items-center justify-center">
               <Image
-                src="/earliest_best_prototype.png"
-                alt={t.product.images?.necklace?.title ?? 'Necklace'}
-                width={800}
-                height={600}
-                className="max-w-full h-auto object-contain"
-                priority
-              />
-              <figcaption className="text-center mt-3">
-                <div className="text-sm font-semibold text-white">{t.product.images.necklace.title}</div>
-                {t.product.images.necklace.caption ? (
-                  <div className="text-xs text-gray-400">{t.product.images.necklace.caption}</div>
-                ) : null}
-              </figcaption>
-            </figure>
-
-            <figure className="w-full flex flex-col items-center justify-center">
-              <Image
-                src="/best_prototype_bracelet_all_gold.png"
+                src="/best_bracelet_prototype_worn_by_lady.png"
                 alt={t.product.images?.bracelet?.title ?? 'Bracelet'}
                 width={800}
                 height={600}
