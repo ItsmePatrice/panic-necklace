@@ -5,10 +5,10 @@ export const translations = {
     
     // Hero Section
     hero: {
-      title: "Juwelry That",
+      title: "A Safety Device That",
       titleHighlight: "Keeps You Safe",
       emphasizeBold: true,
-      subtitle: "Elegant, discreet, and connected — built to protect you when it matters most.",
+      subtitle: "Discreet and connected — designed to protect you without drawing attention.",
       ctaButton: "Discover Discreta",
       scrollHint: "Scroll"
     },
@@ -18,26 +18,26 @@ export const translations = {
       title: "Our Mission",
       content: {
         line1: "Your safety is our priority.",
-        line2: "Born in Montréal, this idea came to life with one clear purpose — to help women feel safe without sacrificing elegance.",
-        line3: "Designed by an engineer who believes protection should feel natural, effortless, and beautiful, this juwelry combines technology and design in one discreet piece you can wear every day.",
+        line2: "Born in Montréal, this idea came to life with one clear purpose — to help real estate agents feel safe without sacrificing elegance.",
+        line3: "Designed by an engineer who believes protection should feel natural and effortless, our safety system offers you a piece you can discretely carry with you every day.",
         line4: "Whether you're walking to your car, showing a home, or coming back late at night, two discreet touches silently send an alert — sharing your live location with those who can help.",
         line5: "No phone. No noise. Just peace of mind.",
-        line6: "Confidence. Safety. Style.",
-        line7: "All in one timeless piece."
+        line6: "Confidence. Safety. Discretion.",
+        line7: "A simple system built for real situations."
       }
     },
     
     // Product Section
     product: {
       title: "Meet Discreta",
-      subtitle: "Crafted with precision, designed for protection",
+      subtitle: "A discreet safety system that pairs with your mobile app.",
       images: {
         necklace: {
-          title: "Necklace Version",
+          title: "Safety Device Version",
           caption: ""
         },
         bracelet: {
-          title: "Bracelet Version",
+          title: "Clip Version",
           caption: ""
         }
       },
@@ -45,17 +45,24 @@ export const translations = {
       interactiveView: "Interactive 360° view",
       features: {
         connectivity: {
-          title: "Smart Connectivity",
-          description: "Instant emergency alerts"
+          title: "App Pairing",
+          description: "Download the mobile app, pair your safety device, and add trusted emergency contacts."
         },
         design: {
-          title: "Elegant Design",
-          description: "Premium materials with timeless aesthetics"
+          title: "Safer Than Your Phone",
+          description: "Better than pulling out your phone in a tense moment — designed to stay discreet and calm."
         },
         protection: {
-          title: "Always Protected",
-          description: "7-day battery life with rapid charging"
+          title: "Alert with Location",
+          description: "Double tap and an alert is sent instantly with your real-time location."
         }
+      },
+      cta: {
+        line1: "Real estate agents: test Discreta risk-free for 2 weeks.",
+        line2: "Call",
+        line3: "to get started and share your feedback.",
+        phone: "514-830-5176",
+        note: "We’ll provide a device and app access — no obligation."
       }
     },
     
@@ -80,8 +87,8 @@ export const translations = {
     // Footer
     footer: {
       brandName: "Discreta",
-      tagline: "Making safety beautiful, one piece of juwelry at a time.",
-      copyright: "© 2024 Discreta. All rights reserved. | Privacy Policy | Terms of Service"
+      tagline: "Discreet protection when it matters most.",
+      copyright: "© 2026 Discreta. All rights reserved. | Privacy Policy | Terms of Service"
     }
   },
   
@@ -91,10 +98,10 @@ export const translations = {
     
     // Hero Section
     hero: {
-      title: "Un Bijou Qui",
+      title: "Un Dispositif Qui",
       titleHighlight: "Vous Protège",
       emphasizeBold: true,
-      subtitle: "Élégant, discret et connecté — conçu pour vous protéger quand cela compte le plus.",
+      subtitle: "Discret et connecté — conçu pour vous protéger sans attirer l'attention.",
       ctaButton: "Découvrir Discreta",
       scrollHint: "Défiler"
     },
@@ -104,26 +111,26 @@ export const translations = {
       title: "Notre Mission",
       content: {
         line1: "Votre sécurité est notre priorité.",
-        line2: "Né à Montréal, cette idée a pris vie avec un objectif clair — aider les femmes à se sentir en sécurité sans sacrifier l'élégance.",
-        line3: "Conçu par un ingénieur qui croit que la protection doit être naturelle, sans effort et élégante, ce bijou combine technologie et design en une pièce discrète que vous pouvez porter tous les jours.",
-        line4: "Que vous marchiez vers votre voiture, fassiez visiter une maison ou rentriez tard le soir, deux touches discrètes envoient silencieusement une alerte — partageant votre localisation en temps réel avec ceux qui peuvent vous aider.",
+        line2: "Né à Montréal, cette idée a pris vie avec un objectif clair — aider les agents immobiliers à se sentir en sécurité sans sacrifier l'élégance.",
+        line3: "Conçu par un ingénieur qui croit que la protection doit être naturelle et sans effort, notre système de sécurité vous propose un dispositif que vous pouvez porter discrètement chaque jour.",
+        line4: "Que vous marchiez vers votre voiture, fassiez visiter une maison ou rentriez tard le soir, deux touches discrètes envoient silencieusement une alerte — partageant votre position en direct avec ceux qui peuvent vous aider.",
         line5: "Pas de téléphone. Pas de bruit. Juste la tranquillité d'esprit.",
-        line6: "Confiance. Sécurité. Style.",
-        line7: "Tout en une pièce intemporelle."
+        line6: "Confiance. Sécurité. Discrétion.",
+        line7: "Un système simple pensé pour de vraies situations."
       }
     },
     
     // Product Section
     product: {
       title: "Rencontrez Discreta",
-      subtitle: "Fabriqué avec précision, conçu pour la protection",
+      subtitle: "Un système de sécurité discret qui se connecte à votre application mobile.",
       images: {
         necklace: {
-          title: "Version Collier",
+          title: "Version Dispositif de Sécurité",
           caption: ""
         },
         bracelet: {
-          title: "Version Bracelet",
+          title: "Version Clip",
           caption: ""
         }
       },
@@ -131,17 +138,24 @@ export const translations = {
       interactiveView: "Vue interactive 360°",
       features: {
         connectivity: {
-          title: "Connectivité Intelligente",
-          description: "Alertes d'urgence instantanées"
+          title: "Appairage",
+          description: "Téléchargez l'application mobile, associez votre dispositif de sécurité et ajoutez vos contacts d'urgence de confiance."
         },
         design: {
-          title: "Design Élégant",
-          description: "Matériaux premium avec une esthétique intemporelle"
+          title: "Plus Sûr Que le Téléphone",
+          description: "Mieux que de sortir votre téléphone dans un moment tendu — conçu pour rester discret et calme."
         },
         protection: {
-          title: "Toujours Protégé",
-          description: "Batterie de 7 jours avec charge rapide"
+          title: "Alerte avec Position",
+          description: "Double-cliquez et une alerte est envoyée instantanément avec votre position en direct."
         }
+      },
+      cta: {
+        line1: "Testez Discreta sans risque pendant 2 semaines.",
+        line2: "Appelez",
+        line3: "pour commencer et partager votre avis.",
+        phone: "514-830-5176",
+        note: "Nous fournissons un appareil et l'accès à l'application — sans engagement."
       }
     },
     
@@ -166,8 +180,8 @@ export const translations = {
     // Footer
     footer: {
       brandName: "Discreta",
-      tagline: "Rendre la sécurité belle, un bijou à la fois.",
-      copyright: "© 2024 Discreta. Tous droits réservés. | Politique de Confidentialité | Conditions d'Utilisation"
+      tagline: "La discrétion, quand ça compte le plus.",
+      copyright: "© 2026 Discreta. Tous droits réservés. | Politique de Confidentialité | Conditions d'Utilisation"
     }
   }
 } as const;

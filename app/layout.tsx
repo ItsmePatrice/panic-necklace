@@ -14,12 +14,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Discreta: A Juwelry That Keeps You Safe",
-  description: "Meet Discreta - an elegant, discreet, and connected panic-button juwelry. Built to protect you when it matters most. Join our waitlist for early access.",
-  keywords: ["safety", "panic button", "smart jewelry", "wearable technology", "personal security", "Discreta"],
+  title: "Discreta: A System That Keeps You Safe",
+  description: "Meet Discreta - a discreet, connected safety device system that pairs with an the mobile app for trusted emergency support.",
+  keywords: ["safety", "emergency contacts", "wearable safety", "personal security", "Discreta", "safety device"],
   openGraph: {
-  title: "Discreta: A Juwelry That Keeps You Safe",
-    description: "Meet Discreta - an elegant, discreet, and connected panic-button juwelry. Built to protect you when it matters most.",
+  title: "Discreta: A System That Keeps You Safe",
+    description: "Meet Discreta - a discreet, connected safety device system that pairs with a mobile app for trusted emergency support.",
     type: "website",
   },
 };
