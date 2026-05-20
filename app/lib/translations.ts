@@ -152,7 +152,8 @@ export const translations = {
           volumeHeader: "Agents enrolled",
           priceHeader: "Price per agent / month",
           tiers: [
-            { range: "Up to 10", price: "$24.99 CAD" },
+            { range: "2-5", price: "$21.99 CAD" },
+            { range: "6-10", price: "$19.99 CAD" },
             { range: "11–50", price: "$18.99 CAD" },
             { range: "51–200", price: "$16.99 CAD" },
             { range: "200+", price: "Contact us" }
@@ -324,7 +325,8 @@ export const translations = {
           volumeHeader: "Agents inscrits",
           priceHeader: "Prix par agent / mois",
           tiers: [
-            { range: "Jusqu'à 10", price: "24,99 CAD" },
+            { range: "2-5", price: "21,99 CAD" },
+            { range: "6-10", price: "19,99 CAD" },
             { range: "11–50", price: "18,99 CAD" },
             { range: "51–200", price: "16,99 CAD" },
             { range: "200+", price: "Contactez-nous" }
