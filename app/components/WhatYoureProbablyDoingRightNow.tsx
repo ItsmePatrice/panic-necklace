@@ -83,7 +83,7 @@ export default function WhatYoureProbablyDoingRightNow() {
         <div className="text-center mt-12 sm:mt-16">
           <p className="text-base sm:text-lg text-gray-400 max-w-3xl mx-auto">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 font-medium">
-              {t.whatYoureProbablyDoingRightNow.SolutionPresented}
+              {t.whatYoureProbablyDoingRightNow.bridge}
             </span>
           </p>
         </div>

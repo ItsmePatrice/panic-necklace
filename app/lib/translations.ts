@@ -31,6 +31,7 @@ export const translations = {
     whatYoureProbablyDoingRightNow: {
       title: "What You're Probably Doing Right Now",
       intro: "Before Discreta, most solo workers do one of these:",
+      bridge: "That's where Discreta comes in.",
       scenarios: [
         {
           title: "I text someone my location before going in",
@@ -88,6 +89,47 @@ export const translations = {
         line3: "to get started and share your feedback.",
         phone: "514-830-5176",
         note: "We’ll provide a device and app access — no obligation."
+      }
+      ,
+      whatYouGet: {
+        title: "How Discreta gives you peace of mind",
+        items: [
+          {
+            icon: "🔘",
+            title: "Your Discreta device",
+            description: "A discreet button you wear or carry. No one knows what it is."
+          },
+          {
+            icon: "📍",
+            title: "Instant live location",
+            description: "The moment you click, your exact location is sent to your contacts."
+          },
+          {
+            icon: "🚨",
+            title: "Silent SOS alert",
+            description: "No noise, no phone, no attention drawn to you."
+          },
+          {
+            icon: "👥",
+            title: "Up to 5 emergency contacts",
+            description: "Family, friends, colleagues — all notified at once."
+          },
+          {
+            icon: "⏱️",
+            title: "Session timer",
+            description: "Start a visit, set a time. If you don't check in, your contacts are alerted automatically."
+          },
+          {
+            icon: "📱",
+            title: "Simple app",
+            description: "Clean, easy, set up in under 10 minutes."
+          },
+          {
+            icon: "🤝",
+            title: "Personal onboarding",
+            description: "We set it up with you personally. You're never alone figuring it out."
+          }
+        ]
       }
     },
     
@@ -149,6 +191,7 @@ export const translations = {
     whatYoureProbablyDoingRightNow: {
       title: "Ce Que Vous Faites Probablement Maintenant",
       intro: "Avant Discreta, la plupart des travailleurs autonomes font l'une de ces choses :",
+      bridge: "C'est là que Discreta intervient.",
       scenarios: [
         {
           title: "Je texte quelqu'un ma localisation avant d'entrer",
@@ -206,6 +249,47 @@ export const translations = {
         line3: "pour commencer et partager votre avis.",
         phone: "514-830-5176",
         note: "Nous fournissons un appareil et l'accès à l'application — sans engagement."
+      }
+      ,
+      whatYouGet: {
+        title: "Comment Discreta vous apporte la tranquillité d'esprit",
+        items: [
+          {
+            icon: "🔘",
+            title: "Votre appareil Discreta",
+            description: "Un bouton discret que vous portez ou transportez. Personne ne sait ce que c'est."
+          },
+          {
+            icon: "📍",
+            title: "Localisation en direct instantanée",
+            description: "Au moment où vous appuyez, votre position exacte est envoyée à vos contacts."
+          },
+          {
+            icon: "🚨",
+            title: "Alerte SOS silencieuse",
+            description: "Pas de bruit, pas de téléphone, pas d'attention attirée sur vous."
+          },
+          {
+            icon: "👥",
+            title: "Jusqu'à 5 contacts d'urgence",
+            description: "Famille, amis, collègues — tous notifiés en même temps."
+          },
+          {
+            icon: "⏱️",
+            title: "Minuteur de session",
+            description: "Démarrez une visite, définissez un temps. Si vous ne vous signalez pas, vos contacts sont automatiquement alertés."
+          },
+          {
+            icon: "📱",
+            title: "Application simple",
+            description: "Propre, facile, configurée en moins de 10 minutes."
+          },
+          {
+            icon: "🤝",
+            title: "Accompagnement personnalisé",
+            description: "Nous vous l'installons personnellement. Vous n'êtes jamais seul pour la configuration."
+          }
+        ]
       }
     },
     

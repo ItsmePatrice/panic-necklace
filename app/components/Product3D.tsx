@@ -47,6 +47,25 @@ export default function Product3D() {
             ))}
           </div>
 
+          {/* What You Get Section */}
+          <div className="mt-10 sm:mt-12">
+            <h3 className="text-center text-xl sm:text-2xl font-semibold text-white mb-6">
+              {t.product.whatYouGet.title}
+            </h3>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+              {t.product.whatYouGet.items.map((item, idx) => (
+                <div key={idx} className="flex gap-4 items-start bg-gray-800/50 border border-gray-700 rounded-lg p-4 hover:scale-[1.01] transition-transform">
+                  <div className="text-3xl leading-none">{item.icon}</div>
+                  <div>
+                    <h4 className="text-white font-medium mb-1">{item.title}</h4>
+                    <p className="text-sm text-gray-300">{item.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
           <div className="mt-8 sm:mt-10 text-center border-t border-gray-700 pt-6">
             <p className="text-lg sm:text-xl text-white max-w-3xl mx-auto mb-4">
               {t.product.cta.line1} <span className="font-semibold">{t.product.cta.line2} <a href="tel:5148305176" className="underline">{t.product.cta.phone}</a> {t.product.cta.line3}</span>
