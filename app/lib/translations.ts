@@ -5,10 +5,8 @@ export const translations = {
     
     // Hero Section
     hero: {
-      title: "A Safety Device That",
-      titleHighlight: "Keeps You Safe",
-      emphasizeBold: true,
-      subtitle: "Discreet and connected — designed to protect you without drawing attention.",
+      mainText: "You're alone in the house. The client is a stranger.",
+      emphasis: "Discreta makes sure someone always knows you're safe.",
       ctaButton: "Discover Discreta",
       scrollHint: "Scroll"
     },
@@ -133,24 +131,6 @@ export const translations = {
       }
     },
     
-    // Waitlist Section
-    waitlist: {
-      title: "Be the first to know",
-      subtitle: "Join our waitlist for exclusive early access and special launch pricing.",
-      emailPlaceholder: "Enter your email",
-      submitButton: "Join Waitlist",
-      submitting: "Joining...",
-      successTitle: "You're on the list!",
-      successMessage: "We'll keep you updated on our launch and exclusive early-bird offers.",
-      disclaimer: "No spam, just updates. Unsubscribe anytime.",
-      errors: {
-        required: "Email is required",
-        invalid: "Please enter a valid email address",
-        network: "Network error. Please try again.",
-        server: "Something went wrong. Please try again."
-      }
-    },
-    
     // Footer
     footer: {
       brandName: "Discreta",
@@ -165,10 +145,8 @@ export const translations = {
     
     // Hero Section
     hero: {
-      title: "Un Dispositif Qui",
-      titleHighlight: "Vous Protège",
-      emphasizeBold: true,
-      subtitle: "Discret et connecté — conçu pour vous protéger sans attirer l'attention.",
+      mainText: "Vous êtes seul dans la maison. Le client est un étranger.",
+      emphasis: "Discreta s'assure que quelqu'un sait toujours que vous êtes en sécurité.",
       ctaButton: "Découvrir Discreta",
       scrollHint: "Défiler"
     },
@@ -290,24 +268,6 @@ export const translations = {
             description: "Nous vous l'installons personnellement. Vous n'êtes jamais seul pour la configuration."
           }
         ]
-      }
-    },
-    
-    // Waitlist Section
-    waitlist: {
-      title: "Soyez les premiers informés",
-      subtitle: "Rejoignez notre liste d'attente pour un accès exclusif anticipé et des prix de lancement spéciaux.",
-      emailPlaceholder: "Entrez votre email",
-      submitButton: "Rejoindre la Liste",
-      submitting: "Inscription...",
-      successTitle: "Vous êtes sur la liste !",
-      successMessage: "Nous vous tiendrons au courant de notre lancement et des offres exclusives.",
-      disclaimer: "Pas de spam, seulement des mises à jour. Désabonnez-vous à tout moment.",
-      errors: {
-        required: "L'email est requis",
-        invalid: "Veuillez entrer une adresse email valide",
-        network: "Erreur réseau. Veuillez réessayer.",
-        server: "Quelque chose s'est mal passé. Veuillez réessayer."
       }
     },
     

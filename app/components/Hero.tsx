@@ -4,7 +4,6 @@ import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Hero() {
   const { t } = useLanguage();
-  const emphasizeBold = (t as any)?.hero?.emphasizeBold ?? false;
 
   const scrollToProduct = () => {
     const productSection = document.querySelector('#product-section');
@@ -27,24 +26,17 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto text-center">
-        {/* Main heading with staggered animation */}
+        {/* Main text with staggered animation */}
         <div className="animate-fade-in-up">
-          <h1 className={`text-4xl sm:text-5xl md:text-7xl tracking-tight text-white mb-4 sm:mb-6 ${emphasizeBold ? 'font-bold' : 'font-light'}`}>
-            {t.hero.title}{' '}
-            {emphasizeBold ? (
-              <span className="font-bold text-white">{t.hero.titleHighlight}</span>
-            ) : (
-              <span className="font-medium bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-                {t.hero.titleHighlight}
-              </span>
-            )}
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight text-white mb-6 sm:mb-8 font-light leading-tight">
+            {t.hero.mainText}
           </h1>
         </div>
         
-        {/* Subtitle with delay */}
+        {/* Emphasis text with smaller font and delay */}
         <div className="animate-fade-in-up animation-delay-300">
-          <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto leading-relaxed px-2 mb-8 sm:mb-12">
-            {t.hero.subtitle}
+          <p className="text-lg sm:text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto leading-relaxed px-2 mb-8 sm:mb-12 font-medium">
+            {t.hero.emphasis}
           </p>
         </div>
 
