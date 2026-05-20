@@ -27,6 +27,31 @@ export const translations = {
       }
     },
     
+    // What You're Probably Doing Right Now Section
+    whatYoureProbablyDoingRightNow: {
+      title: "What You're Probably Doing Right Now",
+      intro: "Before Discreta, most solo workers do one of these:",
+      scenarios: [
+        {
+          title: "I text someone my location before going in",
+          description: "Even if they have your location, if something happens in the next 45 minutes — they won't know until it's too late."
+        },
+        {
+          title: "I keep my phone in my hand just in case",
+          description: "Taking your phone out in a tense moment is obvious. It signals to the other person that you're alarmed. That can make things worse, not better."
+        },
+        {
+          title: "I trust my gut and hope for the best",
+          description: "Your gut is good. But hope isn't a safety plan. And one situation where your gut was right but you had no way to act on it is one too many."
+        }
+      ],
+      consequence: {
+        title: "The real consequence of doing nothing:",
+        description: "You keep showing homes, entering apartments, meeting strangers — carrying that quiet anxiety every single time. It affects your confidence, your focus, and eventually your willingness to take on new clients. And if something ever does go wrong, the people who care about you will have no idea where you are."
+      },
+      SolutionPresented: "Thats where Discreta comes in."
+    },
+    
     // Product Section
     product: {
       title: "Meet Discreta",
@@ -118,6 +143,31 @@ export const translations = {
         line6: "Confiance. Sécurité. Discrétion.",
         line7: "Un système simple pensé pour de vraies situations."
       }
+    },
+    
+    // What You're Probably Doing Right Now Section
+    whatYoureProbablyDoingRightNow: {
+      title: "Ce Que Vous Faites Probablement Maintenant",
+      intro: "Avant Discreta, la plupart des travailleurs autonomes font l'une de ces choses :",
+      scenarios: [
+        {
+          title: "Je texte quelqu'un ma localisation avant d'entrer",
+          description: "Même si la personne a votre localisation, si quelque chose se passe dans les 45 prochaines minutes — elle ne le saura pas jusqu'à ce qu'il soit trop tard."
+        },
+        {
+          title: "Je garde mon téléphone à la main juste au cas où",
+          description: "Sortir votre téléphone dans un moment tendu est évident. Cela signale à l'autre personne que vous êtes alarmé. Cela peut rendre les choses pires, non meilleures."
+        },
+        {
+          title: "Je fais confiance à mon instinct et j'espère le meilleur",
+          description: "Votre instinct est bon. Mais l'espoir n'est pas un plan de sécurité. Et une situation où votre instinct avait raison mais où vous n'aviez aucun moyen d'agir est une de trop."
+        }
+      ],
+      consequence: {
+        title: "La vraie conséquence de ne rien faire :",
+        description: "Vous continuez à montrer des maisons, à entrer dans des appartements, à rencontrer des étrangers — en portant cette anxiété tranquille à chaque fois. Cela affecte votre confiance, votre concentration, et finalement votre volonté d'accepter de nouveaux clients. Et si quelque chose mal tourne, les personnes qui vous aiment n'auront aucune idée de l'endroit où vous êtes."
+      },
+      SolutionPresented: "C'est là que Discreta entre en jeu."
     },
     
     // Product Section

@@ -1,5 +1,6 @@
 import Hero from './components/Hero';
 import Mission from './components/Mission';
+import WhatYoureProbablyDoingRightNow from './components/WhatYoureProbablyDoingRightNow';
 import Product3D from './components/Product3D';
 import WaitlistForm from './components/WaitlistForm';
 import Footer from './components/Footer';
@@ -11,6 +12,7 @@ export default function Home() {
       <LanguageSwitcher />
       <Hero />
       <Mission />
+      <WhatYoureProbablyDoingRightNow />
       <Product3D />
       <WaitlistForm />
       <Footer />
