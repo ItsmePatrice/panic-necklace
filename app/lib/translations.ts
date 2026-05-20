@@ -128,6 +128,38 @@ export const translations = {
             description: "We set it up with you personally. You're never alone figuring it out."
           }
         ]
+      },
+      pricing: {
+        title: "Simple, Transparent Pricing",
+        individualPlan: {
+          title: "Individual Plan",
+          price: "$24.99 CAD / month",
+          bullets: [
+            "Safety device included — yours to keep",
+            "Up to 5 emergency contacts",
+            "Silent SOS alerts",
+            "Live GPS location sharing",
+            "Session timer with automatic alerts",
+            "Personal onboarding — we set it up with you"
+          ],
+          trial: "",
+          minTerm: "2-month minimum, cancel anytime after",
+          button: "Start Your Free Trial"
+        },
+        agencyPlan: {
+          title: "Agency Plan",
+          subtitle: "Everything in the individual plan, for your entire team.",
+          volumeHeader: "Agents enrolled",
+          priceHeader: "Price per agent / month",
+          tiers: [
+            { range: "Up to 10", price: "$24.99 CAD" },
+            { range: "11–50", price: "$18.99 CAD" },
+            { range: "51–200", price: "$16.99 CAD" },
+            { range: "200+", price: "Contact us" }
+          ],
+          note: "Volume pricing available.",
+          minTerm: "2-month minimum, cancel anytime after"
+        }
       }
     },
     
@@ -268,6 +300,38 @@ export const translations = {
             description: "Nous vous l'installons personnellement. Vous n'êtes jamais seul pour la configuration."
           }
         ]
+      },
+      pricing: {
+        title: "Tarification simple et transparente",
+        individualPlan: {
+          title: "Forfait individuel",
+          price: "24,99 CAD / mois",
+          bullets: [
+            "Dispositif de sécurité inclus — à vous de le garder",
+            "Jusqu'à 5 contacts d'urgence",
+            "Alertes SOS silencieuses",
+            "Partage de localisation GPS en direct",
+            "Minuteur de session avec alertes automatiques",
+            "Accompagnement personnalisé — nous vous l'installons"
+          ],
+          trial: "",
+          minTerm: "Minimum 2 mois, annulez à tout moment après",
+          button: "Commencez votre essai gratuit"
+        },
+        agencyPlan: {
+          title: "Forfait Agence",
+          subtitle: "Tout ce qui est inclus dans le forfait individuel, pour toute votre équipe.",
+          volumeHeader: "Agents inscrits",
+          priceHeader: "Prix par agent / mois",
+          tiers: [
+            { range: "Jusqu'à 10", price: "24,99 CAD" },
+            { range: "11–50", price: "18,99 CAD" },
+            { range: "51–200", price: "16,99 CAD" },
+            { range: "200+", price: "Contactez-nous" }
+          ],
+          note: "Tarification de volume disponible.",
+          minTerm: "Minimum 2 mois, annulez à tout moment après"
+        }
       }
     },
     
