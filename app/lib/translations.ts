@@ -346,7 +346,7 @@ export const translations = {
       introduction: {
         title: "1. Introduction",
         paragraphs: [
-          "Discreta ('we', 'our', or 'us') is a personal safety system designed to help individuals — particularly solo workers such as real estate agents — stay safe through a discreet wearable device paired with a mobile application. This Privacy Policy describes how we collect, use, store, and protect your personal information when you use our app, website, or services.",
+          "Discreta is a personal safety system designed to help individuals — particularly solo workers such as real estate agents — stay safe through a discreet wearable device paired with a mobile application. This Privacy Policy describes how we collect, use, store, and protect your personal information when you use our app, website, or services.",
           "By using Discreta, you agree to the practices described in this policy. If you do not agree, please discontinue use of the app."
         ]
       },
