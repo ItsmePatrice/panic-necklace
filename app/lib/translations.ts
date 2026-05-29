@@ -337,6 +337,47 @@ export const translations = {
         }
       ]
     },
+    accountDeletion: {
+      header: {
+        label: "Account deletion",
+        title: "Delete your Discreta account",
+        description: "You can request permanent deletion of your account and personal data at any time. Here's how."
+      },
+      stepsTitle: "How to request deletion",
+      deletionsTitle: "What gets deleted",
+      steps: [
+        {
+          number: "1",
+          title: "Send us an email",
+          description: "Email us from the address associated with your Discreta account.",
+          detail: "patriceammah@gmail.com"
+        },
+        {
+          number: "2",
+          title: "Include your account details",
+          description: "In your email, mention the name and email address linked to your Discreta account so we can locate it quickly."
+        },
+        {
+          number: "3",
+          title: "We'll confirm and process your request",
+          description: "We will confirm receipt of your request and complete the deletion within 30 days."
+        }
+      ],
+      deletions: [
+        {
+          item: "Account profile (name, email, photo)",
+          status: "Deleted"
+        },
+        {
+          item: "Emergency contacts",
+          status: "Deleted"
+        },
+        {
+          item: "Session history & app activity",
+          status: "Deletion cannot be undone."
+        }
+      ]
+    },
     privacy: {
       header: {
         label: "Privacy Policy",
@@ -495,6 +536,7 @@ export const translations = {
       tagline: "Discretion when it matters.",
       privacyPolicy: "Privacy Policy",
       termsOfService: "Terms of Service",
+      accountDeletion: "Account Deletion",
       copyright: "© 2026 Discreta. All rights reserved."
     }
   },
@@ -837,6 +879,47 @@ export const translations = {
         }
       ]
     },
+    accountDeletion: {
+      header: {
+        label: "Suppression de compte",
+        title: "Supprimez votre compte Discreta",
+        description: "Vous pouvez demander la suppression définitive de votre compte et de vos données personnelles à tout moment. Voici comment."
+      },
+      stepsTitle: "Comment demander la suppression",
+      deletionsTitle: "Ce qui est supprimé",
+      steps: [
+        {
+          number: "1",
+          title: "Envoyez-nous un e-mail",
+          description: "Envoyez-nous un courriel depuis l'adresse associée à votre compte Discreta.",
+          detail: "patriceammah@gmail.com"
+        },
+        {
+          number: "2",
+          title: "Incluez les détails de votre compte",
+          description: "Dans votre e-mail, mentionnez le nom et l'adresse e-mail liés à votre compte Discreta afin que nous puissions le localiser rapidement."
+        },
+        {
+          number: "3",
+          title: "Nous confirmerons et traiterons votre demande",
+          description: "Nous confirmerons la réception de votre demande et finaliserons la suppression sous 30 jours."
+        }
+      ],
+      deletions: [
+        {
+          item: "Profil de compte (nom, e-mail, photo)",
+          status: "Supprimé"
+        },
+        {
+          item: "Contacts d'urgence",
+          status: "Supprimé"
+        },
+        {
+          item: "Historique de session et activité de l'application",
+          status: "La suppression est définitive."
+        }
+      ]
+    },
     privacy: {
       header: {
         label: "Politique de confidentialité",
@@ -995,6 +1078,7 @@ export const translations = {
       tagline: "La discrétion, quand ça compte.",
       privacyPolicy: "Politique de confidentialité",
       termsOfService: "Conditions d'utilisation",
+      accountDeletion: "Suppression de compte",
       copyright: "© 2026 Discreta. Tous droits réservés."
     }
   }

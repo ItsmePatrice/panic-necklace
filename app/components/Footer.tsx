@@ -30,6 +30,10 @@ export default function Footer() {
             <a href="/terms" className="text-gray-400 hover:text-white underline">
               {t.footer.termsOfService}
             </a>
+            <span className="mx-2">|</span>
+            <a href="/account-deletion" className="text-gray-400 hover:text-white underline">
+              {t.footer.accountDeletion}
+            </a>
           </p>
         </div>
       </div>
