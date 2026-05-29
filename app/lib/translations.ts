@@ -163,6 +163,180 @@ export const translations = {
         }
       }
     },
+    terms: {
+      header: {
+        label: "Terms of Service",
+        title: "Discreta Terms of Service",
+        effectiveDate: "Effective Date: May 29, 2026"
+      },
+      sections: [
+        {
+          title: "1. Acceptance of Terms",
+          paragraphs: [
+            "These Terms of Service constitute a legally binding agreement between you and Discreta, governing your access to and use of the Discreta mobile application, website, wearable device, and related services (collectively, the \"Service\").",
+            "By creating an account, downloading the app, or using the Discreta device, you confirm that you have read, understood, and agree to these Terms. If you do not agree, you must not use the Service.",
+            "You must be at least 18 years old to use Discreta. By using the Service, you represent that you meet this requirement."
+          ]
+        },
+        {
+          title: "2. Description of the Service",
+          paragraphs: [
+            "Discreta is a personal safety system consisting of:"
+          ],
+          bullets: [
+            "A wearable hardware button (\"Device\") that triggers silent SOS alerts",
+            "A mobile application (\"App\") that pairs with the Device, manages emergency contacts, and transmits your real-time location",
+            "A session timer feature that automatically alerts your contacts if you fail to check in",
+            "SMS notifications delivered to up to 5 emergency contacts via third-party SMS infrastructure"
+          ],
+          note: "Discreta is designed as a supplemental safety aid. It is not a substitute for emergency services. In any life-threatening situation, always contact emergency services (911 or local equivalent) first."
+        },
+        {
+          title: "3. Account Registration & Security",
+          paragraphs: [
+            "To use Discreta, you must sign in using a valid Google (Gmail) or Apple account. By doing so, you authorize us to receive basic profile information from those providers as described in our Privacy Policy.",
+            "You are responsible for:"
+          ],
+          bullets: [
+            "Maintaining the confidentiality of your account credentials",
+            "All activity that occurs under your account",
+            "Ensuring your emergency contacts have consented to receive SMS alerts from Discreta on your behalf"
+          ],
+          note: "You must notify us immediately at 514-830-5176 if you suspect unauthorized access to your account."
+        },
+        {
+          title: "4. Subscriptions and Payments",
+          subsections: [
+            {
+              title: "4.1 Plans",
+              bullets: [
+                "Individual Plan: $24.99 CAD/month — includes one Device, up to 5 emergency contacts, and all core features",
+                "Agency Plan: Volume pricing per agent per month — contact us for details"
+              ]
+            },
+            {
+              title: "4.2 Billing & Minimum Commitment",
+              paragraphs: [
+                "All plans require a minimum 2-month commitment. After the initial 2 months, you may cancel at any time. Cancellation takes effect at the end of the current billing period; no partial-month refunds are issued."
+              ]
+            },
+            {
+              title: "4.3 Device Ownership",
+              paragraphs: [
+                "Upon subscribing to the Individual Plan, the Discreta Device is included and becomes yours to keep, regardless of whether you later cancel your subscription. The Device requires an active subscription to function with the App."
+              ]
+            },
+            {
+              title: "4.4 Price Changes",
+              paragraphs: [
+                "We reserve the right to change subscription pricing. We will provide at least 30 days' notice of any price increase via email or in-app notification. Continued use after the effective date of a price change constitutes acceptance of the new pricing."
+              ]
+            },
+            {
+              title: "4.5 Free Trials & Pilots",
+              paragraphs: [
+                "We may offer limited-time free trials or pilot programs (such as 2-week agency testing programs). Trial terms will be communicated at the time of enrollment. After a trial period, paid subscription terms apply unless you cancel before the trial ends."
+              ]
+            }
+          ]
+        },
+        {
+          title: "5. Acceptable Use",
+          paragraphs: [
+            "You agree to use Discreta solely for lawful personal safety purposes. You must not:"
+          ],
+          bullets: [
+            "Use the Service to harass, stalk, or monitor any person without their knowledge or consent",
+            "Trigger false or test SOS alerts that could alarm emergency contacts without cause",
+            "Attempt to reverse-engineer, modify, or tamper with the Device or App",
+            "Use the Service in any way that violates applicable laws in Canada, the United States, or your jurisdiction",
+            "Share your account credentials with unauthorized users",
+            "Resell, sublicense, or commercially exploit the Service without written authorization from Discreta"
+          ],
+          note: "We reserve the right to suspend or terminate accounts that violate these terms without refund."
+        },
+        {
+          title: "6. Emergency Contacts",
+          paragraphs: [
+            "You are solely responsible for obtaining the consent of each person you add as an emergency contact before adding them to your account. By adding a contact, you represent that:"
+          ],
+          bullets: [
+            "That person has agreed to receive SMS alerts from Discreta on your behalf",
+            "The phone number you have provided is accurate and belongs to that person"
+          ],
+          note: "Discreta is not responsible for alerts that fail to reach contacts due to incorrect phone numbers, carrier issues, or contacts' device settings."
+        },
+        {
+          title: "7. Limitation of Liability and Disclaimer of Warranties",
+          subsections: [
+            {
+              title: "7.1 No Guarantee of Safety",
+              paragraphs: [
+                "DISCRETA IS A SUPPLEMENTAL SAFETY AID AND DOES NOT GUARANTEE YOUR SAFETY OR THE PREVENTION OF HARM. THE SERVICE DEPENDS ON FACTORS OUTSIDE OUR CONTROL, INCLUDING BUT NOT LIMITED TO: GPS SIGNAL AVAILABILITY, MOBILE NETWORK CONNECTIVITY, BLUETOOTH RANGE, SMS DELIVERY, DEVICE BATTERY LIFE, AND YOUR EMERGENCY CONTACTS' ABILITY TO RESPOND."
+              ]
+            },
+            {
+              title: "7.2 Disclaimer of Warranties",
+              paragraphs: [
+                "THE SERVICE IS PROVIDED \"AS IS\" AND \"AS AVAILABLE\" WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SERVICE WILL BE UNINTERRUPTED, ERROR-FREE, OR THAT ALERTS WILL ALWAYS BE DELIVERED SUCCESSFULLY."
+              ]
+            },
+            {
+              title: "7.3 Limitation of Liability",
+              paragraphs: [
+                "TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, DISCRETA AND ITS FOUNDERS, OFFICERS, EMPLOYEES, AND AGENTS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF LIFE, PERSONAL INJURY, PROPERTY DAMAGE, OR FAILURE OF AN ALERT TO BE DELIVERED OR ACTED UPON, EVEN IF DISCRETA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+                "IN NO EVENT SHALL DISCRETA'S TOTAL CUMULATIVE LIABILITY TO YOU EXCEED THE AMOUNT YOU PAID FOR THE SERVICE IN THE THREE (3) MONTHS PRECEDING THE EVENT GIVING RISE TO THE CLAIM."
+              ]
+            }
+          ]
+        },
+        {
+          title: "8. Intellectual Property",
+          paragraphs: [
+            "All content, branding, software, and materials associated with Discreta — including the App, website, logo, and documentation — are the property of Discreta and are protected by applicable intellectual property laws in Canada and the United States.",
+            "We grant you a limited, non-exclusive, non-transferable, revocable license to use the App solely for your personal safety purposes in accordance with these Terms. This license does not include any right to copy, modify, distribute, or create derivative works from any Discreta materials."
+          ]
+        },
+        {
+          title: "9. Termination",
+          paragraphs: [
+            "You may cancel your subscription at any time after the 2-month minimum period by contacting us. We may suspend or terminate your account immediately and without notice if:"
+          ],
+          bullets: [
+            "You breach any provision of these Terms",
+            "We are required to do so by law",
+            "We determine, in our sole discretion, that continued access poses a risk to other users or to the integrity of the Service"
+          ],
+          note: "Upon termination, your right to use the App will cease. Provisions of these Terms that by their nature should survive termination (including Sections 7, 8, and 10) will remain in effect."
+        },
+        {
+          title: "10. Governing Law and Dispute Resolution",
+          paragraphs: [
+            "These Terms are governed by and construed in accordance with the laws of the Province of Quebec and the federal laws of Canada applicable therein, without regard to conflict of law principles.",
+            "Any dispute arising from these Terms or your use of the Service shall first be attempted to be resolved through good-faith negotiation. If unresolved, disputes shall be submitted to the exclusive jurisdiction of the courts located in Montreal, Quebec, Canada.",
+            "If you are a U.S.-based user, you acknowledge that you are contracting with a Canadian company and consent to the jurisdiction and governing law set out above."
+          ]
+        },
+        {
+          title: "11. Changes to These Terms",
+          paragraphs: [
+            "We may update these Terms from time to time. When we do, we will update the Effective Date and notify you via the App or email at least 14 days before changes take effect. Your continued use of the Service after the effective date of any changes constitutes your acceptance of the revised Terms."
+          ]
+        },
+        {
+          title: "12. Contact Us",
+          paragraphs: [
+            "If you have questions about these Terms, please contact us:"
+          ],
+          list: [
+            "Phone: 514-830-5176",
+            "Website: https://discreta-safety-system.vercel.app",
+            "Location: Montreal, Quebec, Canada"
+          ],
+          note: "We will respond to all inquiries within 30 days."
+        }
+      ]
+    },
     privacy: {
       header: {
         label: "Privacy Policy",
@@ -488,6 +662,180 @@ export const translations = {
           minTerm: "Minimum 2 mois, annulez à tout moment après"
         }
       }
+    },
+    terms: {
+      header: {
+        label: "Conditions d'utilisation",
+        title: "Conditions d'utilisation de Discreta",
+        effectiveDate: "Date d'entrée en vigueur : 29 mai 2026"
+      },
+      sections: [
+        {
+          title: "1. Acceptation des conditions",
+          paragraphs: [
+            "Ces Conditions d'utilisation constituent un accord juridiquement contraignant entre vous et Discreta, régissant votre accès et votre utilisation de l'application mobile Discreta, du site Web, du dispositif portable et des services connexes (collectivement, le \"Service\").",
+            "En créant un compte, en téléchargeant l'application ou en utilisant le dispositif Discreta, vous confirmez que vous avez lu, compris et accepté ces Conditions. Si vous n'êtes pas d'accord, vous ne devez pas utiliser le Service.",
+            "Vous devez avoir au moins 18 ans pour utiliser Discreta. En utilisant le Service, vous déclarez remplir cette condition."
+          ]
+        },
+        {
+          title: "2. Description du service",
+          paragraphs: [
+            "Discreta est un système de sécurité personnelle composé de :"
+          ],
+          bullets: [
+            "Un bouton matériel portable (\"Dispositif\") qui déclenche des alertes SOS silencieuses",
+            "Une application mobile (\"App\") qui se connecte au Dispositif, gère les contacts d'urgence et transmet votre position en temps réel",
+            "Une fonction de minuterie de session qui alerte automatiquement vos contacts si vous n'effectuez pas de vérification",
+            "Des notifications SMS envoyées à un maximum de 5 contacts d'urgence via une infrastructure SMS tierce"
+          ],
+          note: "Discreta est conçu comme une aide de sécurité supplémentaire. Il ne remplace pas les services d'urgence. En cas de situation mettant la vie en danger, appelez toujours les services d'urgence (911 ou équivalent local) en premier."
+        },
+        {
+          title: "3. Enregistrement du compte et sécurité",
+          paragraphs: [
+            "Pour utiliser Discreta, vous devez vous connecter avec un compte Google (Gmail) ou Apple valide. En le faisant, vous nous autorisez à recevoir des informations de profil de base de ces fournisseurs, comme décrit dans notre politique de confidentialité.",
+            "Vous êtes responsable de :"
+          ],
+          bullets: [
+            "Maintenir la confidentialité de vos identifiants de compte",
+            "Toutes les activités effectuées sous votre compte",
+            "S'assurer que vos contacts d'urgence ont consenti à recevoir des alertes SMS de Discreta en votre nom"
+          ],
+          note: "Vous devez nous informer immédiatement au 514-830-5176 si vous soupçonnez un accès non autorisé à votre compte."
+        },
+        {
+          title: "4. Abonnements et paiements",
+          subsections: [
+            {
+              title: "4.1 Forfaits",
+              bullets: [
+                "Forfait individuel : 24,99 CAD/mois — comprend un Dispositif, jusqu'à 5 contacts d'urgence et toutes les fonctionnalités de base",
+                "Forfait Agence : tarification par agent et par mois en fonction du volume — contactez-nous pour les détails"
+              ]
+            },
+            {
+              title: "4.2 Facturation et engagement minimum",
+              paragraphs: [
+                "Tous les forfaits nécessitent un engagement minimum de 2 mois. Après les 2 premiers mois, vous pouvez annuler à tout moment. L'annulation prend effet à la fin de la période de facturation en cours ; aucun remboursement partiel de mois n'est accordé."
+              ]
+            },
+            {
+              title: "4.3 Propriété du dispositif",
+              paragraphs: [
+                "En souscrivant au forfait individuel, le dispositif Discreta est inclus et vous appartient, que vous annuliez ou non votre abonnement par la suite. Le Dispositif nécessite un abonnement actif pour fonctionner avec l'application."
+              ]
+            },
+            {
+              title: "4.4 Modifications de prix",
+              paragraphs: [
+                "Nous nous réservons le droit de modifier les prix des abonnements. Nous fournirons un préavis d'au moins 30 jours en cas d'augmentation de prix par e-mail ou notification dans l'application. La poursuite de l'utilisation après la date d'effet de l'augmentation constitue une acceptation du nouveau prix."
+              ]
+            },
+            {
+              title: "4.5 Essais gratuits et pilotes",
+              paragraphs: [
+                "Nous pouvons proposer des essais gratuits ou des programmes pilotes de durée limitée (par exemple des programmes de test d'agence de 2 semaines). Les conditions de l'essai seront communiquées au moment de l'inscription. Après la période d'essai, les conditions d'abonnement payant s'appliquent, sauf annulation avant la fin de l'essai."
+              ]
+            }
+          ]
+        },
+        {
+          title: "5. Utilisation acceptable",
+          paragraphs: [
+            "Vous acceptez d'utiliser Discreta uniquement à des fins personnelles de sécurité. Vous ne devez pas :"
+          ],
+          bullets: [
+            "Utiliser le Service pour harceler, épier ou surveiller une personne sans son consentement ou qu'elle en soit informée",
+            "Déclencher de fausses alertes SOS ou des alertes de test pouvant alarmer des contacts d'urgence sans raison",
+            "Tenter de rétroconcevoir, modifier ou altérer le Dispositif ou l'application",
+            "Utiliser le Service d'une manière qui enfreint les lois applicables au Canada, aux États-Unis ou dans votre juridiction",
+            "Partager vos identifiants de compte avec des utilisateurs non autorisés",
+            "Revendre, sous-licencier ou exploiter commercialement le Service sans autorisation écrite de Discreta"
+          ],
+          note: "Nous nous réservons le droit de suspendre ou de résilier les comptes qui enfreignent ces conditions sans remboursement."
+        },
+        {
+          title: "6. Contacts d'urgence",
+          paragraphs: [
+            "Vous êtes seul responsable d'obtenir le consentement de chaque personne que vous ajoutez comme contact d'urgence avant de l'ajouter à votre compte. En ajoutant un contact, vous déclarez que :"
+          ],
+          bullets: [
+            "Cette personne a accepté de recevoir des alertes SMS de Discreta en votre nom",
+            "Le numéro de téléphone que vous avez fourni est exact et lui appartient"
+          ],
+          note: "Discreta n'est pas responsable des alertes qui ne parviennent pas aux contacts en raison de numéros de téléphone incorrects, de problèmes d'opérateur ou des paramètres de l'appareil des contacts."
+        },
+        {
+          title: "7. Limitation de responsabilité et exclusion de garanties",
+          subsections: [
+            {
+              title: "7.1 Aucune garantie de sécurité",
+              paragraphs: [
+                "DISCRETA EST UNE AIDE DE SÉCURITÉ SUPPLÉMENTAIRE ET NE GARANTIT PAS VOTRE SÉCURITÉ NI LA PRÉVENTION DES DOMMAGES. LE SERVICE DÉPEND DE FACTEURS INDÉPENDANTS DE NOTRE VOLONTÉ, NOTAMMENT MAIS SANS S'Y LIMITER : DISPONIBILITÉ DU SIGNAL GPS, CONNECTIVITÉ DU RÉSEAU MOBILE, PORTÉE BLUETOOTH, LIVRAISON DES SMS, AUTONOMIE DE LA BATTERIE DU DISPOSITIF ET CAPACITÉ DE RÉPONSE DE VOS CONTACTS D'URGENCE."
+              ]
+            },
+            {
+              title: "7.2 Exclusion de garanties",
+              paragraphs: [
+                "LE SERVICE EST FOURNI \"TEL QUEL\" ET \"SELON DISPONIBILITÉ\" SANS AUCUNE GARANTIE D'AUCUNE SORTE, QU'ELLE SOIT EXPRESSE OU IMPLICITE, Y COMPRIS MAIS SANS S'Y LIMITER AUX GARANTIES DE QUALITÉ MARCHANDE, D'ADAPTATION À UN USAGE PARTICULIER OU DE NON-CONTREFAÇON. NOUS NE GARANTISSONS PAS QUE LE SERVICE SERA ININTERROMPU, SANS ERREUR OU QUE LES ALERTES SERONT TOUJOURS LIVRÉES AVEC SUCCÈS."
+              ]
+            },
+            {
+              title: "7.3 Limitation de responsabilité",
+              paragraphs: [
+                "DANS LA MESURE MAXIMALE AUTORISÉE PAR LA LOI APPLICABLE, DISCRETA ET SES FONDATEURS, DIRIGEANTS, EMPLOYÉS ET AGENTS NE SAURAIENT ÊTRE TENUS RESPONSABLES DE TOUT DOMMAGE INDIRECT, ACCESSOIRE, SPÉCIAL, CONSÉCUTIF OU PUNITIF, Y COMPRIS MAIS SANS S'Y LIMITER À LA PERTE DE VIE, AUX BLESSURES CORPORELLES, AUX DOMMAGES MATÉRIELS OU À L'ÉCHEC D'UNE ALERTE À ÊTRE LIVRÉE OU PRISE EN COMPTE, MÊME SI DISCRETA A ÉTÉ INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.",
+                "EN AUCUN CAS LA RESPONSABILITÉ TOTALE CUMULÉE DE DISCRETA ENVERS VOUS NE DEVRAIT DÉPASSER LE MONTANT QUE VOUS AVEZ PAYÉ POUR LE SERVICE AU COURS DES TROIS (3) MOIS PRÉCÉDANT L'ÉVÉNEMENT DONNANT LIEU À LA RÉCLAMATION."
+              ]
+            }
+          ]
+        },
+        {
+          title: "8. Propriété intellectuelle",
+          paragraphs: [
+            "Tout le contenu, le branding, les logiciels et les documents associés à Discreta — y compris l'application, le site Web, le logo et la documentation — sont la propriété de Discreta et sont protégés par les lois sur la propriété intellectuelle applicables au Canada et aux États-Unis.",
+            "Nous vous accordons une licence limitée, non exclusive, non transférable et révocable d'utiliser l'application uniquement à des fins personnelles de sécurité conformément à ces Conditions. Cette licence n'inclut aucun droit de copier, modifier, distribuer ou créer des œuvres dérivées à partir de tout matériel Discreta."
+          ]
+        },
+        {
+          title: "9. Résiliation",
+          paragraphs: [
+            "Vous pouvez annuler votre abonnement à tout moment après la période minimale de 2 mois en nous contactant. Nous pouvons suspendre ou résilier votre compte immédiatement et sans préavis si :"
+          ],
+          bullets: [
+            "Vous violez une disposition de ces Conditions",
+            "Nous sommes tenus de le faire par la loi",
+            "Nous déterminons, à notre seule discrétion, que l'accès continu représente un risque pour les autres utilisateurs ou pour l'intégrité du Service"
+          ],
+          note: "En cas de résiliation, votre droit d'utiliser l'application prend fin. Les dispositions de ces Conditions qui, de par leur nature, doivent survivre à la résiliation (y compris les sections 7, 8 et 10) demeureront en vigueur."
+        },
+        {
+          title: "10. Loi applicable et résolution des litiges",
+          paragraphs: [
+            "Ces Conditions sont régies et interprétées conformément aux lois de la province de Québec et aux lois fédérales du Canada applicables, sans tenir compte des principes de conflit de lois.",
+            "Tout litige découlant de ces Conditions ou de votre utilisation du Service doit d'abord être tenté de résoudre par une négociation de bonne foi. En cas d'échec, les litiges doivent être soumis à la compétence exclusive des tribunaux situés à Montréal, Québec, Canada.",
+            "Si vous êtes un utilisateur basé aux États-Unis, vous reconnaissez que vous concluez un contrat avec une entreprise canadienne et consentez à la juridiction et à la loi applicable indiquées ci-dessus."
+          ]
+        },
+        {
+          title: "11. Modifications de ces conditions",
+          paragraphs: [
+            "Nous pouvons mettre à jour ces Conditions de temps à autre. Lorsque nous le faisons, nous mettrons à jour la date d'entrée en vigueur et vous informerons via l'application ou par e-mail au moins 14 jours avant l'entrée en vigueur des modifications. Votre utilisation continue du Service après la date d'effet de toute modification constitue votre acceptation des Conditions révisées."
+          ]
+        },
+        {
+          title: "12. Nous contacter",
+          paragraphs: [
+            "Si vous avez des questions concernant ces Conditions, veuillez nous contacter :"
+          ],
+          list: [
+            "Téléphone : 514-830-5176",
+            "Site Web : https://discreta-safety-system.vercel.app",
+            "Emplacement : Montréal, Québec, Canada"
+          ],
+          note: "Nous répondrons à toutes les demandes dans un délai de 30 jours."
+        }
+      ]
     },
     privacy: {
       header: {
