@@ -175,7 +175,7 @@ export const translations = {
           paragraphs: [
             "These Terms of Service constitute a legally binding agreement between you and Discreta, governing your access to and use of the Discreta mobile application, website, wearable device, and related services (collectively, the \"Service\").",
             "By creating an account, downloading the app, or using the Discreta device, you confirm that you have read, understood, and agree to these Terms. If you do not agree, you must not use the Service.",
-            "You must be at least 18 years old to use Discreta. By using the Service, you represent that you meet this requirement."
+            "The subscriber must be at least 18 years old to enter into this agreement. A subscriber may set up and provide the Service to a minor in their care (such as a dependent or employee under 18), provided the subscriber accepts full responsibility for that person's use of the Service."
           ]
         },
         {
@@ -675,7 +675,7 @@ export const translations = {
           paragraphs: [
             "Ces Conditions d'utilisation constituent un accord juridiquement contraignant entre vous et Discreta, régissant votre accès et votre utilisation de l'application mobile Discreta, du site Web, du dispositif portable et des services connexes (collectivement, le \"Service\").",
             "En créant un compte, en téléchargeant l'application ou en utilisant le dispositif Discreta, vous confirmez que vous avez lu, compris et accepté ces Conditions. Si vous n'êtes pas d'accord, vous ne devez pas utiliser le Service.",
-            "Vous devez avoir au moins 18 ans pour utiliser Discreta. En utilisant le Service, vous déclarez remplir cette condition."
+            "L'abonné doit être âgé d'au moins 18 ans pour conclure le présent accord. Un abonné peut configurer et fournir le Service à un mineur sous sa responsabilité (tel qu'une personne à charge ou un employé de moins de 18 ans), à condition que l'abonné accepte l'entière responsabilité de l'utilisation du Service par cette personne. "
           ]
         },
         {
