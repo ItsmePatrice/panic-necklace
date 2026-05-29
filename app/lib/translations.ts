@@ -318,7 +318,7 @@ export const translations = {
     // Footer
     footer: {
       brandName: "Discreta",
-      tagline: "Discreet protection when it matters most.",
+      tagline: "Discretion when it matters.",
       privacyPolicy: "Privacy Policy",
       termsOfService: "Terms of Service",
       copyright: "© 2026 Discreta. All rights reserved."
@@ -644,7 +644,7 @@ export const translations = {
     // Footer
     footer: {
       brandName: "Discreta",
-      tagline: "La discrétion, quand ça compte le plus.",
+      tagline: "La discrétion, quand ça compte.",
       privacyPolicy: "Politique de confidentialité",
       termsOfService: "Conditions d'utilisation",
       copyright: "© 2026 Discreta. Tous droits réservés."
