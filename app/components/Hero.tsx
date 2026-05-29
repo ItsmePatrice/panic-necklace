@@ -14,14 +14,6 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center px-4 py-16 sm:py-20 bg-black overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        {/* Floating particles */}
-        <div className="absolute top-20 left-10 w-2 h-2 bg-white/20 rounded-full animate-pulse"></div>
-        <div className="absolute top-40 right-20 w-1 h-1 bg-white/30 rounded-full animate-ping"></div>
-        <div className="absolute bottom-32 left-1/4 w-1.5 h-1.5 bg-white/15 rounded-full animate-pulse delay-1000"></div>
-        <div className="absolute top-1/3 right-1/3 w-1 h-1 bg-white/25 rounded-full animate-ping delay-500"></div>
-        <div className="absolute bottom-1/4 right-10 w-2 h-2 bg-white/10 rounded-full animate-pulse delay-700"></div>
-        
-        {/* Subtle gradient animations */}
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-purple-900/5 via-transparent to-blue-900/5 animate-pulse"></div>
       </div>
 
