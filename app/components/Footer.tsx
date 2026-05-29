@@ -22,6 +22,14 @@ export default function Footer() {
         <div className="mt-8 pt-8 border-t border-gray-700 text-center">
           <p className="text-sm text-gray-400">
             {t.footer.copyright}
+            <span className="mx-2">|</span>
+            <a href="/privacy" className="text-gray-400 hover:text-white underline">
+              {t.footer.privacyPolicy}
+            </a>
+            <span className="mx-2">|</span>
+            <a href="/terms" className="text-gray-400 hover:text-white underline">
+              {t.footer.termsOfService}
+            </a>
           </p>
         </div>
       </div>

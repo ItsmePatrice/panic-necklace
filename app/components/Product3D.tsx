@@ -34,14 +34,21 @@ export default function Product3D() {
             {gallery.map((img) => (
               <figure key={img} className="w-full flex flex-col items-center justify-center">
                 <div className="w-full h-80 sm:h-96 md:h-[28rem] lg:h-[30rem] relative">
-                  <Image
-                    src={`/${img}`}
-                    alt={img.replace(/[-.]/g, ' ')}
-                    fill
-                    className="object-contain rounded-lg shadow-lg"
-                    sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 30vw"
-                    priority={img === 'flic-button.jpg'}
-                  />
+                  {
+                    (() => {
+                      const alt = img === 'flic-button.jpg' ? 'discreet button' : img.replace(/[-.]/g, ' ');
+                      return (
+                        <Image
+                          src={`/${img}`}
+                          alt={alt}
+                          fill
+                          className="object-contain rounded-lg shadow-lg"
+                          sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 30vw"
+                          priority={img === 'flic-button.jpg'}
+                        />
+                      );
+                    })()
+                  }
                 </div>
               </figure>
             ))}
