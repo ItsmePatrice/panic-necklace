@@ -133,33 +133,36 @@ export const translations = {
         title: "Simple, Transparent Pricing",
         individualPlan: {
           title: "Individual Plan",
-          price: "$24.99 CAD / month",
+          price: "$29.99 CAD / month",
           bullets: [
-            "Safety device included — yours to keep",
+            "Safety device + key clip included",
             "Up to 5 emergency contacts",
             "Silent SOS alerts",
             "Live GPS location sharing",
             "Session timer with automatic alerts",
-            "Personal onboarding — we set it up with you"
+            "Personal onboarding"
           ],
           trial: "",
-          minTerm: "2-month minimum, cancel anytime after",
+          minTerm: "3-month minimum, cancel anytime after",
           button: "Start Your Free Trial"
         },
         agencyPlan: {
           title: "Agency Plan",
-          subtitle: "Everything in the individual plan, for your entire team.",
+          subtitle: "Safety device + key clip included per agent. Everything in the individual plan, for your entire team.",
           volumeHeader: "Agents enrolled",
           priceHeader: "Price per agent / month",
           tiers: [
-            { range: "2-5", price: "$21.99 CAD" },
-            { range: "6-10", price: "$19.99 CAD" },
-            { range: "11–50", price: "$18.99 CAD" },
-            { range: "51–200", price: "$16.99 CAD" },
-            { range: "200+", price: "Contact us" }
+            { range: "2–5", price: "$26.99 CAD" },
+            { range: "6–10", price: "$24.99 CAD" },
+            { range: "11–25", price: "$22.99 CAD" },
+            { range: "26–50", price: "$21.99 CAD" },
+            { range: "51–100", price: "$20.99 CAD" },
+            { range: "101–200", price: "$19.99 CAD" },
+            { range: "201–500", price: "$18.99 CAD" },
+            { range: "500+", price: "Contact us" }
           ],
-          note: "Volume pricing available.",
-          minTerm: "2-month minimum, cancel anytime after"
+          note: "Volume pricing as follows.",
+          minTerm: "3-month minimum, cancel anytime after"
         }
       }
     },
@@ -210,14 +213,14 @@ export const translations = {
             {
               title: "4.1 Plans",
               bullets: [
-                "Individual Plan: $24.99 CAD/month — includes one Device, up to 5 emergency contacts, and all core features",
+                "Individual Plan: $29.99 CAD/month — includes one Device, up to 5 emergency contacts, and all core features",
                 "Agency Plan: Volume pricing per agent per month — contact us for details"
               ]
             },
             {
               title: "4.2 Billing & Minimum Commitment",
               paragraphs: [
-                "All plans require a minimum 2-month commitment. After the initial 2 months, you may cancel at any time. Cancellation takes effect at the end of the current billing period; no partial-month refunds are issued."
+                "All plans require a minimum 3-month commitment. After the initial 3 months, you may cancel at any time. Cancellation takes effect at the end of the current billing period; no partial-month refunds are issued."
               ]
             },
             {
@@ -300,7 +303,7 @@ export const translations = {
         {
           title: "9. Termination",
           paragraphs: [
-            "You may cancel your subscription at any time after the 2-month minimum period by contacting us. We may suspend or terminate your account immediately and without notice if:"
+            "You may cancel your subscription at any time after the 3-month minimum period by contacting us. We may suspend or terminate your account immediately and without notice if:"
           ],
           bullets: [
             "You breach any provision of these Terms",
@@ -675,33 +678,36 @@ export const translations = {
         title: "Tarification simple et transparente",
         individualPlan: {
           title: "Forfait individuel",
-          price: "24,99 CAD / mois",
+          price: "29,99 CAD / mois",
           bullets: [
-            "Dispositif de sécurité inclus — à vous de le garder",
+            "Dispositif de sécurité + clip de clé inclus",
             "Jusqu'à 5 contacts d'urgence",
             "Alertes SOS silencieuses",
             "Partage de localisation GPS en direct",
             "Minuteur de session avec alertes automatiques",
-            "Accompagnement personnalisé — nous vous l'installons"
+            "Accompagnement personnalisé"
           ],
           trial: "",
-          minTerm: "Minimum 2 mois, annulez à tout moment après",
+          minTerm: "Minimum 3 mois, annulez à tout moment après",
           button: "Commencez votre essai gratuit"
         },
         agencyPlan: {
           title: "Forfait Agence",
-          subtitle: "Tout ce qui est inclus dans le forfait individuel, pour toute votre équipe.",
+          subtitle: "Dispositif de sécurité + clip de clé inclus par agent. Tout ce qui est inclus dans le forfait individuel, pour toute votre équipe.",
           volumeHeader: "Agents inscrits",
           priceHeader: "Prix par agent / mois",
           tiers: [
-            { range: "2-5", price: "21,99 CAD" },
-            { range: "6-10", price: "19,99 CAD" },
-            { range: "11–50", price: "18,99 CAD" },
-            { range: "51–200", price: "16,99 CAD" },
-            { range: "200+", price: "Contactez-nous" }
+            { range: "2–5", price: "26,99 CAD" },
+            { range: "6–10", price: "24,99 CAD" },
+            { range: "11–25", price: "22,99 CAD" },
+            { range: "26–50", price: "21,99 CAD" },
+            { range: "51–100", price: "20,99 CAD" },
+            { range: "101–200", price: "19,99 CAD" },
+            { range: "201–500", price: "18,99 CAD" },
+            { range: "500+", price: "Contactez-nous" }
           ],
-          note: "Tarification de volume disponible.",
-          minTerm: "Minimum 2 mois, annulez à tout moment après"
+          note: "Tarification de volume comme suit.",
+          minTerm: "Minimum 3 mois, annulez à tout moment après"
         }
       }
     },
@@ -752,14 +758,14 @@ export const translations = {
             {
               title: "4.1 Forfaits",
               bullets: [
-                "Forfait individuel : 24,99 CAD/mois — comprend un Dispositif, jusqu'à 5 contacts d'urgence et toutes les fonctionnalités de base",
+                "Forfait individuel : 29,99 CAD/mois — comprend un Dispositif, jusqu'à 5 contacts d'urgence et toutes les fonctionnalités de base",
                 "Forfait Agence : tarification par agent et par mois en fonction du volume — contactez-nous pour les détails"
               ]
             },
             {
               title: "4.2 Facturation et engagement minimum",
               paragraphs: [
-                "Tous les forfaits nécessitent un engagement minimum de 2 mois. Après les 2 premiers mois, vous pouvez annuler à tout moment. L'annulation prend effet à la fin de la période de facturation en cours ; aucun remboursement partiel de mois n'est accordé."
+                "Tous les forfaits nécessitent un engagement minimum de 3 mois. Après les 3 premiers mois, vous pouvez annuler à tout moment. L'annulation prend effet à la fin de la période de facturation en cours ; aucun remboursement partiel de mois n'est accordé."
               ]
             },
             {
@@ -842,7 +848,7 @@ export const translations = {
         {
           title: "9. Résiliation",
           paragraphs: [
-            "Vous pouvez annuler votre abonnement à tout moment après la période minimale de 2 mois en nous contactant. Nous pouvons suspendre ou résilier votre compte immédiatement et sans préavis si :"
+            "Vous pouvez annuler votre abonnement à tout moment après la période minimale de 3 mois en nous contactant. Nous pouvons suspendre ou résilier votre compte immédiatement et sans préavis si :"
           ],
           bullets: [
             "Vous violez une disposition de ces Conditions",
