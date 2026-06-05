@@ -537,8 +537,105 @@ export const translations = {
       tagline: "Discretion when it matters.",
       privacyPolicy: "Privacy Policy",
       termsOfService: "Terms of Service",
+      support: "Support",
       accountDeletion: "Account Deletion",
       copyright: "© 2026 Discreta. All rights reserved."
+    },
+    support: {
+      label: "Support",
+      title: "Discreta support",
+      subtitle: "Everything you need to stay safe during your showings.",
+      sections: {
+        beforeShowing: {
+          heading: "Before your first showing",
+          important: "Discreta requires your precise location and Bluetooth to be active at all times during a showing. Without these, your SOS alerts and location sharing will not work. Please take 2 minutes to confirm both before your first use.",
+          step1: {
+            title: "1. Allow precise location — always",
+            description: "Your location is only shared with your emergency contacts when you trigger an alert. For this to work, the app must have permission to access your location at all times — including in the background.",
+            iosTitle: "iPhone (iOS)",
+            iosSteps: [
+              "Open Settings",
+              "Scroll down and tap Discreta",
+              "Tap Location",
+              "Select Always",
+              "Make sure Precise Location is toggled on"
+            ],
+            androidTitle: "Android",
+            androidSteps: [
+              "Open Settings",
+              "Tap Apps or App Manager",
+              "Find and tap Discreta",
+              "Tap Permissions → Location",
+              "Select Allow all the time",
+              "Make sure Use precise location is on"
+            ]
+          },
+          step2: {
+            title: "2. Turn on Bluetooth",
+            description: "Your safety device button connects to your phone via Bluetooth. Bluetooth must be on to pair the button and for it to trigger alerts.",
+            iosTitle: "iPhone (iOS)",
+            iosSteps: [
+              "Swipe down from the top-right corner to open Control Centre",
+              "Tap the Bluetooth icon to enable it",
+              "Or go to Settings → Bluetooth and toggle it on"
+            ],
+            androidTitle: "Android",
+            androidSteps: [
+              "Swipe down from the top of your screen to open Quick Settings",
+              "Tap the Bluetooth icon to enable it",
+              "Or go to Settings → Connected devices → Bluetooth and toggle it on"
+            ]
+          },
+          step3: {
+            title: "3. Open the app before your first showing",
+            description: "Due to platform limitations, the safety device only works in the background after the app has been opened at least once. Make it a habit to open Discreta once at the start of your day before your first showing and leave it running."
+          }
+        },
+        duringShowing: {
+          heading: "During a showing",
+          items: [
+            "Bring your safety device — clip it to your keychain so you always have it with you.",
+            "Make sure Bluetooth and location are active on your phone.",
+            "iPhone users: confirm the app has been opened at least once today.",
+            "If you feel unsafe at any point, press your safety device. Your emergency contacts will receive an SMS alert with your current location.",
+            "If you pressed the button by accident, open the app immediately to cancel the alert before it sends."
+          ]
+        },
+        troubleshooting: {
+          heading: "Troubleshooting",
+          button: {
+            title: "Button not connecting to my phone",
+            items: [
+              "Confirm Bluetooth is turned on.",
+              "Press the button once — the LED should blink to indicate it is active.",
+              "Open the Discreta app and check that your button appears as paired.",
+              "If still not connecting, remove the button from the app and re-pair it by holding the button down until the LED flashes rapidly."
+            ]
+          },
+          alert: {
+            title: "Alert did not trigger / my contacts didn’t receive an SMS",
+            items: [
+              "Verify that location permission is set to Always and precise location is on.",
+              "Check that your emergency contacts’ phone numbers are saved correctly in the app.",
+              "iPhone users: confirm the app was opened at least once before the showing.",
+              "Run a test alert from within the app to confirm everything is working."
+            ]
+          },
+          background: {
+            title: "App not responding in the background",
+            items: [
+              "iPhone: Go to Settings → Discreta and make sure Background App Refresh is enabled.",
+              "Android: Go to Settings → Apps → Discreta → Battery and set it to Unrestricted so the OS does not put the app to sleep."
+            ]
+          }
+        },
+        contact: {
+          heading: "Contact support",
+          description: "Can’t find what you’re looking for? We’re here to help.",
+          emailLabel: "patriceammah@gmail.com",
+          note: "We typically respond within one business day."
+        }
+      }
     }
   },
   
@@ -1080,8 +1177,105 @@ export const translations = {
       tagline: "La discrétion, quand ça compte.",
       privacyPolicy: "Politique de confidentialité",
       termsOfService: "Conditions d'utilisation",
+      support: "Aide",
       accountDeletion: "Suppression de compte",
       copyright: "© 2026 Discreta. Tous droits réservés."
+    },
+    support: {
+      label: "Aide",
+      title: "Assistance Discreta",
+      subtitle: "Tout ce dont vous avez besoin pour rester en sécurité lors de vos visites.",
+      sections: {
+        beforeShowing: {
+          heading: "Avant votre première visite",
+          important: "Discreta exige que votre position précise et le Bluetooth soient activés à tout moment pendant une visite. Sans cela, vos alertes SOS et le partage de localisation ne fonctionneront pas. Prenez 2 minutes pour les vérifier avant votre première utilisation.",
+          step1: {
+            title: "1. Autoriser la position précise — toujours",
+            description: "Votre position n’est partagée avec vos contacts d’urgence que lorsque vous déclenchez une alerte. Pour cela, l’application doit avoir l’autorisation d’accéder à votre position en permanence, y compris en arrière-plan.",
+            iosTitle: "iPhone (iOS)",
+            iosSteps: [
+              "Ouvrez Paramètres",
+              "Faites défiler vers le bas et appuyez sur Discreta",
+              "Appuyez sur Position",
+              "Choisissez Toujours",
+              "Assurez-vous que Position précise est activée"
+            ],
+            androidTitle: "Android",
+            androidSteps: [
+              "Ouvrez Paramètres",
+              "Appuyez sur Applications ou Gestionnaire d’applications",
+              "Trouvez puis appuyez sur Discreta",
+              "Appuyez sur Autorisations → Position",
+              "Choisissez Autoriser tout le temps",
+              "Assurez-vous que Utiliser la position précise est activé"
+            ]
+          },
+          step2: {
+            title: "2. Activer le Bluetooth",
+            description: "Votre appareil de sécurité se connecte à votre téléphone via Bluetooth. Le Bluetooth doit être activé pour apparier le bouton et pour qu’il déclenche des alertes.",
+            iosTitle: "iPhone (iOS)",
+            iosSteps: [
+              "Ouvrez le Centre de contrôle en glissant vers le bas depuis le haut à droite",
+              "Appuyez sur l’icône Bluetooth pour l’activer",
+              "Ou ouvrez Paramètres → Bluetooth et activez-le"
+            ],
+            androidTitle: "Android",
+            androidSteps: [
+              "Ouvrez les réglages rapides en glissant vers le bas depuis le haut de l’écran",
+              "Appuyez sur l’icône Bluetooth pour l’activer",
+              "Ou ouvrez Paramètres → Appareils connectés → Bluetooth et activez-le"
+            ]
+          },
+          step3: {
+            title: "3. Ouvrez l’application avant votre première visite",
+            description: "À cause d’une limitation sur iPhone, l'appareil de sécurité ne fonctionne en arrière-plan qu’après avoir ouvert l’application au moins une fois. Prenez l’habitude d’ouvrir Discreta une fois au début de la journée avant votre première visite."
+          }
+        },
+        duringShowing: {
+          heading: "Pendant une visite",
+          items: [
+            "Apportez votre appareil de sécurité — fixez-le à votre trousseau pour toujours l’avoir avec vous.",
+            "Assurez-vous que le Bluetooth et la position sont actifs sur votre téléphone.",
+            "Utilisateurs iPhone : confirmez que l’application a été ouverte au moins une fois aujourd’hui.",
+            "Si vous vous sentez en danger, appuyez sur votre appareil de sécurité. Vos contacts d’urgence recevront une alerte SMS avec votre position actuelle.",
+            "Si vous avez appuyé par erreur, ouvrez immédiatement l’application pour annuler l’alerte avant son envoi."
+          ]
+        },
+        troubleshooting: {
+          heading: "Dépannage",
+          button: {
+            title: "Le bouton ne se connecte pas à mon téléphone",
+            items: [
+              "Vérifiez que le Bluetooth est activé.",
+              "Appuyez une fois sur le bouton — la LED devrait clignoter pour indiquer qu’il est actif.",
+              "Ouvrez l’application Discreta et vérifiez que votre bouton apparaît comme appairé.",
+              "S’il ne se connecte toujours pas, retirez le bouton de l’application puis réappariez-le en maintenant le bouton enfoncé jusqu’à ce que la LED clignote rapidement."
+            ]
+          },
+          alert: {
+            title: "L’alerte n’a pas été déclenchée / mes contacts n’ont pas reçu de SMS",
+            items: [
+              "Vérifiez que l’autorisation de position est réglée sur Toujours et que la position précise est activée.",
+              "Vérifiez que les numéros de téléphone de vos contacts d’urgence sont correctement enregistrés dans l’application.",
+              "Utilisateurs iPhone : confirmez que l’application a été ouverte au moins une fois avant la visite.",
+              "Lancez une alerte de test depuis l’application pour confirmer que tout fonctionne."
+            ]
+          },
+          background: {
+            title: "L’application ne répond pas en arrière-plan",
+            items: [
+              "iPhone : ouvrez Paramètres → Discreta et assurez-vous que l’actualisation en arrière-plan est activée.",
+              "Android : ouvrez Paramètres → Applications → Discreta → Batterie et réglez-le sur Illimité pour que le système ne mette pas l’application en sommeil."
+            ]
+          }
+        },
+        contact: {
+          heading: "Contacter le support",
+          description: "Vous ne trouvez pas ce que vous cherchez ? Nous sommes là pour vous aider.",
+          emailLabel: "patriceammah@gmail.com",
+          note: "Nous répondons généralement dans un délai d’un jour ouvrable."
+        }
+      }
     }
   }
 } as const;

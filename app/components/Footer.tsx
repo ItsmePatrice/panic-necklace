@@ -31,6 +31,10 @@ export default function Footer() {
               {t.footer.termsOfService}
             </a>
             <span className="mx-2">|</span>
+            <a href="/support" className="text-gray-400 hover:text-white underline">
+              {t.footer.support}
+            </a>
+            <span className="mx-2">|</span>
             <a href="/account-deletion" className="text-gray-400 hover:text-white underline">
               {t.footer.accountDeletion}
             </a>
