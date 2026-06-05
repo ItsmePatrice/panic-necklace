@@ -464,9 +464,7 @@ export const translations = {
           "Discreta uses the following third-party services to operate:"
         ],
         list: [
-          "Google Sign-In & Google Maps / GPS — used for authentication and real-time location services. Governed by Google's Privacy Policy.",
-          "Apple Sign-In — used for authentication on iOS. Governed by Apple's Privacy Policy.",
-          "Firebase (Google) — used for app backend, database, and authentication infrastructure. Data may be stored on Firebase servers located in the United States.",
+          "Google Maps / GPS — used for authentication and real-time location services. Governed by Google's Privacy Policy.",
           "Twilio — used to deliver SMS alerts to your emergency contacts. Twilio may process the phone numbers of your contacts to send messages."
         ],
         note: "We do not sell your data to any of these or any other third parties."
@@ -1009,9 +1007,7 @@ export const translations = {
           "Discreta utilise les services tiers suivants pour fonctionner :"
         ],
         list: [
-          "Google Sign-In et Google Maps / GPS — utilisés pour l'authentification et les services de localisation en temps réel. Régis par la politique de confidentialité de Google.",
-          "Apple Sign-In — utilisé pour l'authentification sur iOS. Régis par la politique de confidentialité d'Apple.",
-          "Firebase (Google) — utilisé pour l'infrastructure backend de l'application, la base de données et l'authentification. Les données peuvent être stockées sur des serveurs Firebase situés aux États-Unis.",
+          "Google Maps / GPS — utilisés pour l'authentification et les services de localisation en temps réel. Régis par la politique de confidentialité de Google.",
           "Twilio — utilisé pour envoyer des alertes SMS à vos contacts d'urgence. Twilio peut traiter les numéros de téléphone de vos contacts pour envoyer des messages."
         ],
         note: "Nous ne vendons pas vos données à ces services ni à aucun autre tiers."
