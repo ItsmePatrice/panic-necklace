@@ -8,7 +8,7 @@ export default function Product3D() {
 
   // Ordered images (left-to-right, top-to-bottom)
   const gallery = [
-    'login-page.jpg',
+    'login-page.jpeg',
     'home-page.jpg',
     'contact-alert.jpg',
     'instructions.jpg',
