@@ -14,6 +14,10 @@ export const translations = {
     // Mission Section
     mission: {
       title: "Our Mission",
+      founder: {
+        name: "Patrice Ammah",
+        title: "CEO and founder of Discrete Technologies"
+      },
       content: {
         line1: "Your safety is our priority.",
         line2: "Born in Montréal, this idea came to life with one clear purpose — to help real estate agents feel safe without sacrificing elegance.",
@@ -654,6 +658,10 @@ export const translations = {
     // Mission Section
     mission: {
       title: "Notre Mission",
+      founder: {
+        name: "Patrice Ammah",
+        title: "PDG et fondateur de Discrete Technologies"
+      },
       content: {
         line1: "Votre sécurité est notre priorité.",
         line2: "Né à Montréal, cette idée a pris vie avec un objectif clair — aider les agents immobiliers à se sentir en sécurité sans sacrifier l'élégance.",
