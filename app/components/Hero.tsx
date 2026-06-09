@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Hero() {
@@ -18,6 +19,17 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto text-center">
+        <div className="animate-fade-in-up mb-6 sm:mb-8">
+          <Image
+            src="/white_logo_for_website.png"
+            alt="Brand logo"
+            width={220}
+            height={72}
+            priority
+            className="mx-auto h-auto w-40 sm:w-52 md:w-56"
+          />
+        </div>
+
         {/* Main text with staggered animation */}
         <div className="animate-fade-in-up">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight text-white mb-6 sm:mb-8 font-light leading-tight">
