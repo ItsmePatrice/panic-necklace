@@ -16,7 +16,7 @@ export const translations = {
       title: "Our Mission",
       founder: {
         name: "Patrice Ammah",
-        title: "CEO and founder of Discreet Technologies"
+        title: "Founder of Discreet Technologies"
       },
       content: {
         line1: "Your safety is our priority.",
@@ -660,7 +660,7 @@ export const translations = {
       title: "Notre Mission",
       founder: {
         name: "Patrice Ammah",
-        title: "PDG et fondateur de Discreet Technologies"
+        title: "Fondateur de Discreet Technologies"
       },
       content: {
         line1: "Votre sécurité est notre priorité.",
