@@ -86,13 +86,13 @@ export const translations = {
         }
       },
       cta: {
-        line1: "Real estate agents: test Discreta risk-free for 2 weeks.",
+        line1: "Questions about Discreta?",
         line2: "Call",
-        line3: "to get started and share your feedback.",
+        line3: "or email us to learn more.",
         phone: "514-830-5176",
-        note: "We’ll provide a device and app access — no obligation."
-      }
-      ,
+        email: "patriceammah@gmail.com",
+        note: "We'll help you choose the right plan."
+      },
       whatYouGet: {
         title: "How Discreta gives you peace of mind",
         items: [
@@ -135,9 +135,9 @@ export const translations = {
       },
       pricing: {
         title: "Simple, Transparent Pricing",
+        includedBenefitsTitle: "Included Benefits",
         individualPlan: {
           title: "Individual Plan",
-          price: "$29.99 CAD / month",
           bullets: [
             "Safety device + key clip included",
             "Up to 5 emergency contacts",
@@ -146,9 +146,7 @@ export const translations = {
             "Session timer with automatic alerts",
             "Personal onboarding"
           ],
-          trial: "",
-          minTerm: "3-month minimum, cancel anytime after",
-          button: "Start Your Free Trial"
+          minTerm: "3-month minimum, cancel anytime after"
         },
         agencyPlan: {
           title: "Agency Plan",
@@ -156,17 +154,19 @@ export const translations = {
           volumeHeader: "Agents enrolled",
           priceHeader: "Price per agent / month",
           tiers: [
-            { range: "2–5", price: "$26.99 CAD" },
-            { range: "6–10", price: "$24.99 CAD" },
-            { range: "11–25", price: "$22.99 CAD" },
-            { range: "26–50", price: "$21.99 CAD" },
-            { range: "51–100", price: "$20.99 CAD" },
-            { range: "101–200", price: "$19.99 CAD" },
-            { range: "201–500", price: "$18.99 CAD" },
-            { range: "500+", price: "Contact us" }
+            { range: "1–50", price: "$19.99 CAD" },
+            { range: "51–100", price: "$16.99 CAD" },
+            { range: "101–200", price: "$13.99 CAD" },
+            { range: "200+", price: "Contact us" }
           ],
           note: "Volume pricing as follows.",
           minTerm: "3-month minimum, cancel anytime after"
+        },
+        contact: {
+          title: "Ready to get started?",
+          prompt: "Reach us at",
+          phone: "514-830-5176",
+          email: "patriceammah@gmail.com"
         }
       }
     },
@@ -730,13 +730,13 @@ export const translations = {
         }
       },
       cta: {
-        line1: "Testez Discreta sans risque pendant 2 semaines.",
+        line1: "Des questions sur Discreta ?",
         line2: "Appelez",
-        line3: "pour commencer et partager votre avis.",
+        line3: "ou envoyez-nous un courriel pour en savoir plus.",
         phone: "514-830-5176",
-        note: "Nous fournissons un appareil et l'accès à l'application — sans engagement."
-      }
-      ,
+        email: "patriceammah@gmail.com",
+        note: "Nous vous aiderons à choisir le bon plan."
+      },
       whatYouGet: {
         title: "Comment Discreta vous apporte la tranquillité d'esprit",
         items: [
@@ -779,6 +779,7 @@ export const translations = {
       },
       pricing: {
         title: "Tarification simple et transparente",
+        includedBenefitsTitle: "Avantages inclus",
         individualPlan: {
           title: "Forfait individuel",
           price: "29,99 CAD / mois",
@@ -791,8 +792,7 @@ export const translations = {
             "Accompagnement personnalisé"
           ],
           trial: "",
-          minTerm: "Minimum 3 mois, annulez à tout moment après",
-          button: "Commencez votre essai gratuit"
+          minTerm: "Minimum 3 mois, annulez à tout moment après"
         },
         agencyPlan: {
           title: "Forfait Agence",
@@ -800,17 +800,19 @@ export const translations = {
           volumeHeader: "Agents inscrits",
           priceHeader: "Prix par agent / mois",
           tiers: [
-            { range: "2–5", price: "26,99 CAD" },
-            { range: "6–10", price: "24,99 CAD" },
-            { range: "11–25", price: "22,99 CAD" },
-            { range: "26–50", price: "21,99 CAD" },
-            { range: "51–100", price: "20,99 CAD" },
-            { range: "101–200", price: "19,99 CAD" },
-            { range: "201–500", price: "18,99 CAD" },
-            { range: "500+", price: "Contactez-nous" }
+            { range: "1–50", price: "19,99 CAD" },
+            { range: "51–100", price: "16,99 CAD" },
+            { range: "101–200", price: "13,99 CAD" },
+            { range: "200+", price: "Contactez-nous" }
           ],
           note: "Tarification de volume comme suit.",
           minTerm: "Minimum 3 mois, annulez à tout moment après"
+        },
+        contact: {
+          title: "Prêt à commencer ?",
+          prompt: "Contactez-nous au",
+          phone: "514-830-5176",
+          email: "patriceammah@gmail.com"
         }
       }
     },

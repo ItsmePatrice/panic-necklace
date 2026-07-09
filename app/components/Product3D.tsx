@@ -124,10 +124,7 @@ export default function Product3D() {
           <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr] items-start">
             <div className="rounded-3xl border border-gray-700 bg-gray-900/80 p-8 shadow-lg">
               <p className="text-sm uppercase tracking-[0.26em] text-blue-300 mb-3">
-                {t.product.pricing.individualPlan.title}
-              </p>
-              <p className="text-4xl sm:text-5xl font-semibold text-white mb-6">
-                {t.product.pricing.individualPlan.price}
+                {t.product.pricing.includedBenefitsTitle}
               </p>
               <ul className="space-y-3 text-gray-300 mb-6">
                 {t.product.pricing.individualPlan.bullets.map((bullet, index) => (
@@ -137,10 +134,7 @@ export default function Product3D() {
                   </li>
                 ))}
               </ul>
-              {t.product.pricing.individualPlan.trial ? (
-                <p className="text-sm text-gray-400 mb-2">{t.product.pricing.individualPlan.trial}</p>
-              ) : null}
-              <p className="text-sm text-gray-400 mb-6">{t.product.pricing.individualPlan.minTerm}</p>
+              <p className="text-sm text-gray-400">All included in the Agency Plan for each enrolled agent.</p>
             </div>
 
             <div className="rounded-3xl border border-gray-700 bg-gray-900/80 p-8 shadow-lg">
@@ -167,6 +161,13 @@ export default function Product3D() {
                 <p className="text-sm text-gray-400 mt-3">{t.product.pricing.agencyPlan.minTerm}</p>
               ) : null}
             </div>
+          </div>
+          <div className="mt-10 rounded-3xl border border-gray-700 bg-gray-900/80 p-8 shadow-lg">
+            <h4 className="text-xl font-semibold text-white mb-3">{t.product.pricing.contact.title}</h4>
+            <p className="text-sm text-gray-300 mb-2">{t.product.pricing.contact.prompt}</p>
+            <p className="text-lg text-white font-semibold">
+              <a href="tel:5148305176" className="underline">{t.product.pricing.contact.phone}</a> &bull; <a href="mailto:patriceammah@gmail.com" className="underline">{t.product.pricing.contact.email}</a>
+            </p>
           </div>
         </div>
       </div>

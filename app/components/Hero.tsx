@@ -7,7 +7,7 @@ export default function Hero() {
   const { t } = useLanguage();
 
   const scrollToProduct = () => {
-    const productSection = document.querySelector('#product-section');
+    const productSection = document.querySelector('#reality-check');
     productSection?.scrollIntoView({ behavior: 'smooth' });
   };
 
@@ -23,7 +23,7 @@ export default function Hero() {
           <Image
             src="/white_logo_for_website.png"
             alt="Brand logo"
-            width={220}
+            width={221}
             height={72}
             priority
             className="mx-auto h-auto w-40 sm:w-52 md:w-56"
