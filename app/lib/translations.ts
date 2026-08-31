@@ -16,13 +16,13 @@ export const translations = {
       title: "Our Mission",
       founder: {
         name: "Patrice Ammah",
-        title: "Founder of Discreet Technologies"
+        title: "Software Engineer - Creator of Discreta"
       },
       content: {
         line1: "Your safety is our priority.",
-        line2: "Born in Montréal, this idea came to life with one clear purpose — to help real estate agents feel safe without sacrificing elegance.",
+        line2: "Born in Montréal, this idea came to life with one clear purpose - to help real estate agents feel safe without sacrificing elegance.",
         line3: "Designed by an engineer who believes protection should feel natural and effortless, our safety system offers you a piece you can discretely carry with you every day.",
-        line4: "Whether you're walking to your car, showing a home, or coming back late at night, two discreet touches silently send an alert — sharing your live location with those who can help.",
+        line4: "Whether you're walking to your car, showing a home, or coming back late at night, two discreet touches silently send an alert - sharing your live location with those who can help.",
         line5: "No phone. No noise. Just peace of mind.",
         line6: "Confidence. Safety. Discretion.",
         line7: "A simple system built for real situations."
@@ -33,11 +33,10 @@ export const translations = {
     whatYoureProbablyDoingRightNow: {
       title: "What You're Probably Doing Right Now",
       intro: "Before Discreta, most solo workers do one of these:",
-      bridge: "That's where Discreta comes in.",
       scenarios: [
         {
           title: "I text someone my location before going in",
-          description: "Even if they have your location, if something happens in the next 45 minutes — they won't know until it's too late."
+          description: "Even if they have your location, if something happens in the next 45 minutes - they won't know until it's too late."
         },
         {
           title: "I keep my phone in my hand just in case",
@@ -50,7 +49,7 @@ export const translations = {
       ],
       consequence: {
         title: "The real consequence of doing nothing:",
-        description: "You keep showing homes, entering apartments, meeting strangers — carrying that quiet anxiety every single time. It affects your confidence, your focus, and eventually your willingness to take on new clients. And if something ever does go wrong, the people who care about you will have no idea where you are."
+        description: "You keep showing homes, entering apartments, meeting strangers - carrying that quiet anxiety every single time. It affects your confidence, your focus, and eventually your willingness to take on new clients. And if something ever does go wrong, the people who care about you will have no idea where you are."
       },
       SolutionPresented: "Thats where Discreta comes in."
     },
@@ -78,7 +77,7 @@ export const translations = {
         },
         design: {
           title: "Safer Than Your Phone",
-          description: "Better than pulling out your phone in a tense moment — designed to stay discreet and calm."
+          description: "Better than pulling out your phone in a tense moment - designed to stay discreet and calm."
         },
         protection: {
           title: "Alert with Location",
@@ -90,8 +89,7 @@ export const translations = {
         line2: "Call",
         line3: "or email us to learn more.",
         phone: "514-830-5176",
-        email: "patriceammah@gmail.com",
-        note: "We'll help you choose the right plan."
+        email: "patriceammah@gmail.com"
       },
       whatYouGet: {
         title: "How Discreta gives you peace of mind",
@@ -114,7 +112,7 @@ export const translations = {
           {
             icon: "👥",
             title: "Up to 5 emergency contacts",
-            description: "Family, friends, colleagues — all notified at once."
+            description: "Family, friends, colleagues - all notified at once."
           },
           {
             icon: "⏱️",
@@ -217,8 +215,8 @@ export const translations = {
             {
               title: "4.1 Plans",
               bullets: [
-                "Individual Plan: $29.99 CAD/month — includes one Device, up to 5 emergency contacts, and all core features",
-                "Agency Plan: Volume pricing per agent per month — contact us for details"
+                "Individual Plan: $29.99 CAD/month - includes one Device, up to 5 emergency contacts, and all core features",
+                "Agency Plan: Volume pricing per agent per month - contact us for details"
               ]
             },
             {
@@ -300,7 +298,7 @@ export const translations = {
         {
           title: "8. Intellectual Property",
           paragraphs: [
-            "All content, branding, software, and materials associated with Discreta — including the App, website, logo, and documentation — are the property of Discreta and are protected by applicable intellectual property laws in Canada and the United States.",
+            "All content, branding, software, and materials associated with Discreta - including the App, website, logo, and documentation - are the property of Discreta and are protected by applicable intellectual property laws in Canada and the United States.",
             "We grant you a limited, non-exclusive, non-transferable, revocable license to use the App solely for your personal safety purposes in accordance with these Terms. This license does not include any right to copy, modify, distribute, or create derivative works from any Discreta materials."
           ]
         },
@@ -394,7 +392,7 @@ export const translations = {
       introduction: {
         title: "1. Introduction",
         paragraphs: [
-          "Discreta is a personal safety system designed to help individuals — particularly solo workers such as real estate agents — stay safe through a discreet wearable device paired with a mobile application. This Privacy Policy describes how we collect, use, store, and protect your personal information when you use our app, website, or services.",
+          "Discreta is a personal safety system designed to help individuals - particularly solo workers such as real estate agents - stay safe through a discreet wearable device paired with a mobile application. This Privacy Policy describes how we collect, use, store, and protect your personal information when you use our app, website, or services.",
           "By using Discreta, you agree to the practices described in this policy. If you do not agree, please discontinue use of the app."
         ]
       },
@@ -468,8 +466,8 @@ export const translations = {
           "Discreta uses the following third-party services to operate:"
         ],
         list: [
-          "Google Maps / GPS — used for authentication and real-time location services. Governed by Google's Privacy Policy.",
-          "Twilio — used to deliver SMS alerts to your emergency contacts. Twilio may process the phone numbers of your contacts to send messages."
+          "Google Maps / GPS - used for authentication and real-time location services. Governed by Google's Privacy Policy.",
+          "Twilio - used to deliver SMS alerts to your emergency contacts. Twilio may process the phone numbers of your contacts to send messages."
         ],
         note: "We do not sell your data to any of these or any other third parties."
       },
@@ -554,8 +552,8 @@ export const translations = {
           heading: "Before your first showing",
           important: "Discreta requires your precise location and Bluetooth to be active at all times during a showing. Without these, your SOS alerts and location sharing will not work. Please take 2 minutes to confirm both before your first use.",
           step1: {
-            title: "1. Allow precise location — always",
-            description: "Your location is only shared with your emergency contacts when you trigger an alert. For this to work, the app must have permission to access your location at all times — including in the background.",
+            title: "1. Allow precise location - always",
+            description: "Your location is only shared with your emergency contacts when you trigger an alert. For this to work, the app must have permission to access your location at all times - including in the background.",
             iosTitle: "iPhone (iOS)",
             iosSteps: [
               "Open Settings",
@@ -598,7 +596,7 @@ export const translations = {
         duringShowing: {
           heading: "During a showing",
           items: [
-            "Bring your safety device — clip it to your keychain so you always have it with you.",
+            "Bring your safety device - clip it to your keychain so you always have it with you.",
             "Make sure Bluetooth and location are active on your phone.",
             "iPhone users: confirm the app has been opened at least once today.",
             "If you feel unsafe at any point, press your safety device. Your emergency contacts will receive an SMS alert with your current location.",
@@ -611,7 +609,7 @@ export const translations = {
             title: "Button not connecting to my phone",
             items: [
               "Confirm Bluetooth is turned on.",
-              "Press the button once — the LED should blink to indicate it is active.",
+              "Press the button once - the LED should blink to indicate it is active.",
               "Open the Discreta app and check that your button appears as paired.",
               "If still not connecting, remove the button from the app and re-pair it by holding the button down until the LED flashes rapidly."
             ]
@@ -660,13 +658,13 @@ export const translations = {
       title: "Notre Mission",
       founder: {
         name: "Patrice Ammah",
-        title: "Fondateur de Discreet Technologies"
+        title: "Ingénieur logiciel - Créateur de Discreta"
       },
       content: {
         line1: "Votre sécurité est notre priorité.",
-        line2: "Né à Montréal, cette idée a pris vie avec un objectif clair — aider les agents immobiliers à se sentir en sécurité sans sacrifier l'élégance.",
+        line2: "Né à Montréal, cette idée a pris vie avec un objectif clair - aider les agents immobiliers à se sentir en sécurité sans sacrifier l'élégance.",
         line3: "Conçu par un ingénieur qui croit que la protection doit être naturelle et sans effort, notre système de sécurité vous propose un dispositif que vous pouvez porter discrètement chaque jour.",
-        line4: "Que vous marchiez vers votre voiture, fassiez visiter une maison ou rentriez tard le soir, deux touches discrètes envoient silencieusement une alerte — partageant votre position en direct avec ceux qui peuvent vous aider.",
+        line4: "Que vous marchiez vers votre voiture, fassiez visiter une maison ou rentriez tard le soir, deux touches discrètes envoient silencieusement une alerte - partageant votre position en direct avec ceux qui peuvent vous aider.",
         line5: "Pas de téléphone. Pas de bruit. Juste la tranquillité d'esprit.",
         line6: "Confiance. Sécurité. Discrétion.",
         line7: "Un système simple pensé pour de vraies situations."
@@ -677,11 +675,10 @@ export const translations = {
     whatYoureProbablyDoingRightNow: {
       title: "Ce Que Vous Faites Probablement Maintenant",
       intro: "Avant Discreta, la plupart des travailleurs autonomes font l'une de ces choses :",
-      bridge: "C'est là que Discreta intervient.",
       scenarios: [
         {
           title: "Je texte quelqu'un ma localisation avant d'entrer",
-          description: "Même si la personne a votre localisation, si quelque chose se passe dans les 45 prochaines minutes — elle ne le saura pas jusqu'à ce qu'il soit trop tard."
+          description: "Même si la personne a votre localisation, si quelque chose se passe dans les 45 prochaines minutes - elle ne le saura pas jusqu'à ce qu'il soit trop tard."
         },
         {
           title: "Je garde mon téléphone à la main juste au cas où",
@@ -694,7 +691,7 @@ export const translations = {
       ],
       consequence: {
         title: "La vraie conséquence de ne rien faire :",
-        description: "Vous continuez à montrer des maisons, à entrer dans des appartements, à rencontrer des étrangers — en portant cette anxiété tranquille à chaque fois. Cela affecte votre confiance, votre concentration, et finalement votre volonté d'accepter de nouveaux clients. Et si quelque chose mal tourne, les personnes qui vous aiment n'auront aucune idée de l'endroit où vous êtes."
+        description: "Vous continuez à montrer des maisons, à entrer dans des appartements, à rencontrer des étrangers - en portant cette anxiété tranquille à chaque fois. Cela affecte votre confiance, votre concentration, et finalement votre volonté d'accepter de nouveaux clients. Et si quelque chose mal tourne, les personnes qui vous aiment n'auront aucune idée de l'endroit où vous êtes."
       },
       SolutionPresented: "C'est là que Discreta entre en jeu."
     },
@@ -722,7 +719,7 @@ export const translations = {
         },
         design: {
           title: "Plus Sûr Que le Téléphone",
-          description: "Mieux que de sortir votre téléphone dans un moment tendu — conçu pour rester discret et calme."
+          description: "Mieux que de sortir votre téléphone dans un moment tendu - conçu pour rester discret et calme."
         },
         protection: {
           title: "Alerte avec Position",
@@ -734,8 +731,7 @@ export const translations = {
         line2: "Appelez",
         line3: "ou envoyez-nous un courriel pour en savoir plus.",
         phone: "514-830-5176",
-        email: "patriceammah@gmail.com",
-        note: "Nous vous aiderons à choisir le bon plan."
+        email: "patriceammah@gmail.com"
       },
       whatYouGet: {
         title: "Comment Discreta vous apporte la tranquillité d'esprit",
@@ -758,7 +754,7 @@ export const translations = {
           {
             icon: "👥",
             title: "Jusqu'à 5 contacts d'urgence",
-            description: "Famille, amis, collègues — tous notifiés en même temps."
+            description: "Famille, amis, collègues - tous notifiés en même temps."
           },
           {
             icon: "⏱️",
@@ -863,8 +859,8 @@ export const translations = {
             {
               title: "4.1 Forfaits",
               bullets: [
-                "Forfait individuel : 29,99 CAD/mois — comprend un Dispositif, jusqu'à 5 contacts d'urgence et toutes les fonctionnalités de base",
-                "Forfait Agence : tarification par agent et par mois en fonction du volume — contactez-nous pour les détails"
+                "Forfait individuel : 29,99 CAD/mois - comprend un Dispositif, jusqu'à 5 contacts d'urgence et toutes les fonctionnalités de base",
+                "Forfait Agence : tarification par agent et par mois en fonction du volume - contactez-nous pour les détails"
               ]
             },
             {
@@ -946,7 +942,7 @@ export const translations = {
         {
           title: "8. Propriété intellectuelle",
           paragraphs: [
-            "Tout le contenu, le branding, les logiciels et les documents associés à Discreta — y compris l'application, le site Web, le logo et la documentation — sont la propriété de Discreta et sont protégés par les lois sur la propriété intellectuelle applicables au Canada et aux États-Unis.",
+            "Tout le contenu, le branding, les logiciels et les documents associés à Discreta - y compris l'application, le site Web, le logo et la documentation - sont la propriété de Discreta et sont protégés par les lois sur la propriété intellectuelle applicables au Canada et aux États-Unis.",
             "Nous vous accordons une licence limitée, non exclusive, non transférable et révocable d'utiliser l'application uniquement à des fins personnelles de sécurité conformément à ces Conditions. Cette licence n'inclut aucun droit de copier, modifier, distribuer ou créer des œuvres dérivées à partir de tout matériel Discreta."
           ]
         },
@@ -1040,7 +1036,7 @@ export const translations = {
       introduction: {
         title: "1. Introduction",
         paragraphs: [
-          "Discreta est un système de sécurité personnelle conçu pour aider les individus — en particulier les travailleurs autonomes tels que les agents immobiliers à rester en sécurité grâce à un appareil portable discret associé à une application mobile. Cette politique de confidentialité décrit comment nous recueillons, utilisons, stockons et protégeons vos informations personnelles lorsque vous utilisez notre application, notre site Web ou nos services.",
+          "Discreta est un système de sécurité personnelle conçu pour aider les individus - en particulier les travailleurs autonomes tels que les agents immobiliers à rester en sécurité grâce à un appareil portable discret associé à une application mobile. Cette politique de confidentialité décrit comment nous recueillons, utilisons, stockons et protégeons vos informations personnelles lorsque vous utilisez notre application, notre site Web ou nos services.",
           "En utilisant Discreta, vous acceptez les pratiques décrites dans cette politique. Si vous n'êtes pas d'accord, veuillez cesser d'utiliser l'application."
         ]
       },
@@ -1114,8 +1110,8 @@ export const translations = {
           "Discreta utilise les services tiers suivants pour fonctionner :"
         ],
         list: [
-          "Google Maps / GPS — utilisés pour l'authentification et les services de localisation en temps réel. Régis par la politique de confidentialité de Google.",
-          "Twilio — utilisé pour envoyer des alertes SMS à vos contacts d'urgence. Twilio peut traiter les numéros de téléphone de vos contacts pour envoyer des messages."
+          "Google Maps / GPS - utilisés pour l'authentification et les services de localisation en temps réel. Régis par la politique de confidentialité de Google.",
+          "Twilio - utilisé pour envoyer des alertes SMS à vos contacts d'urgence. Twilio peut traiter les numéros de téléphone de vos contacts pour envoyer des messages."
         ],
         note: "Nous ne vendons pas vos données à ces services ni à aucun autre tiers."
       },
@@ -1200,7 +1196,7 @@ export const translations = {
           heading: "Avant votre première visite",
           important: "Discreta exige que votre position précise et le Bluetooth soient activés à tout moment pendant une visite. Sans cela, vos alertes SOS et le partage de localisation ne fonctionneront pas. Prenez 2 minutes pour les vérifier avant votre première utilisation.",
           step1: {
-            title: "1. Autoriser la position précise — toujours",
+            title: "1. Autoriser la position précise - toujours",
             description: "Votre position n’est partagée avec vos contacts d’urgence que lorsque vous déclenchez une alerte. Pour cela, l’application doit avoir l’autorisation d’accéder à votre position en permanence, y compris en arrière-plan.",
             iosTitle: "iPhone (iOS)",
             iosSteps: [
@@ -1244,7 +1240,7 @@ export const translations = {
         duringShowing: {
           heading: "Pendant une visite",
           items: [
-            "Apportez votre appareil de sécurité — fixez-le à votre trousseau pour toujours l’avoir avec vous.",
+            "Apportez votre appareil de sécurité - fixez-le à votre trousseau pour toujours l’avoir avec vous.",
             "Assurez-vous que le Bluetooth et la position sont actifs sur votre téléphone.",
             "Utilisateurs iPhone : confirmez que l’application a été ouverte au moins une fois aujourd’hui.",
             "Si vous vous sentez en danger, appuyez sur votre appareil de sécurité. Vos contacts d’urgence recevront une alerte SMS avec votre position actuelle.",
@@ -1257,7 +1253,7 @@ export const translations = {
             title: "Le bouton ne se connecte pas à mon téléphone",
             items: [
               "Vérifiez que le Bluetooth est activé.",
-              "Appuyez une fois sur le bouton — la LED devrait clignoter pour indiquer qu’il est actif.",
+              "Appuyez une fois sur le bouton - la LED devrait clignoter pour indiquer qu’il est actif.",
               "Ouvrez l’application Discreta et vérifiez que votre bouton apparaît comme appairé.",
               "S’il ne se connecte toujours pas, retirez le bouton de l’application puis réappariez-le en maintenant le bouton enfoncé jusqu’à ce que la LED clignote rapidement."
             ]

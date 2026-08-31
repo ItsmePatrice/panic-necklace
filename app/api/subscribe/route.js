@@ -14,7 +14,7 @@ export async function POST(request) {
     const user = await User.create({ email });
     return NextResponse.json({ success: true, message: "Email saved", user });
   } catch (error) {
-    console.error("❌ Error saving email:", error);
+    console.error(" Error saving email:", error);
     return NextResponse.json(
       { success: false, error: "Failed to save email" },
       { status: 500 }

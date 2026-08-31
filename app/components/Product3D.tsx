@@ -114,62 +114,7 @@ export default function Product3D() {
           </div>
         </div>
 
-        <div className="mt-14 sm:mt-16">
-          <div className="text-center mb-10">
-            <h3 className="text-3xl sm:text-4xl font-light text-white">
-              {t.product.pricing.title}
-            </h3>
-          </div>
 
-          <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr] items-start">
-            <div className="rounded-3xl border border-gray-700 bg-gray-900/80 p-8 shadow-lg">
-              <p className="text-sm uppercase tracking-[0.26em] text-blue-300 mb-3">
-                {t.product.pricing.includedBenefitsTitle}
-              </p>
-              <ul className="space-y-3 text-gray-300 mb-6">
-                {t.product.pricing.individualPlan.bullets.map((bullet, index) => (
-                  <li key={index} className="flex gap-3 text-sm sm:text-base">
-                    <span className="mt-1 text-blue-400">•</span>
-                    <span>{bullet}</span>
-                  </li>
-                ))}
-              </ul>
-              <p className="text-sm text-gray-400">All included in the Agency Plan for each enrolled agent.</p>
-            </div>
-
-            <div className="rounded-3xl border border-gray-700 bg-gray-900/80 p-8 shadow-lg">
-              <p className="text-sm uppercase tracking-[0.26em] text-purple-300 mb-3">
-                {t.product.pricing.agencyPlan.title}
-              </p>
-              <p className="text-lg text-white mb-6">{t.product.pricing.agencyPlan.subtitle}</p>
-              <div className="overflow-hidden rounded-3xl border border-gray-800">
-                <div className="grid grid-cols-[2fr_1fr] bg-gray-950 px-5 py-3 text-xs uppercase tracking-[0.18em] text-gray-400">
-                  <span>{t.product.pricing.agencyPlan.volumeHeader}</span>
-                  <span>{t.product.pricing.agencyPlan.priceHeader}</span>
-                </div>
-                <div className="divide-y divide-gray-800">
-                  {t.product.pricing.agencyPlan.tiers.map((tier, index) => (
-                    <div key={index} className="grid grid-cols-[2fr_1fr] px-5 py-4 text-sm text-gray-200">
-                      <span>{tier.range}</span>
-                      <span className="font-semibold text-white">{tier.price}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <p className="text-sm text-gray-400">{t.product.pricing.agencyPlan.note}</p>
-              {t.product.pricing.agencyPlan.minTerm ? (
-                <p className="text-sm text-gray-400 mt-3">{t.product.pricing.agencyPlan.minTerm}</p>
-              ) : null}
-            </div>
-          </div>
-          <div className="mt-10 rounded-3xl border border-gray-700 bg-gray-900/80 p-8 shadow-lg">
-            <h4 className="text-xl font-semibold text-white mb-3">{t.product.pricing.contact.title}</h4>
-            <p className="text-sm text-gray-300 mb-2">{t.product.pricing.contact.prompt}</p>
-            <p className="text-lg text-white font-semibold">
-              <a href="tel:5148305176" className="underline">{t.product.pricing.contact.phone}</a> &bull; <a href="mailto:patriceammah@gmail.com" className="underline">{t.product.pricing.contact.email}</a>
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );
