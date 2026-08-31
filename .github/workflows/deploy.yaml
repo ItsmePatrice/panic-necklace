@@ -1,0 +1,57 @@
+name: Update website version on s3 bucket
+on:
+  push:
+    tags:
+      - v*
+
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy_website:
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+      
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with: 
+          node-version: '24' 
+
+      - name: Install dependencies
+        working-directory: panic-necklace
+        run: npm ci
+
+      - name: Build project
+        working-directory: panic-necklace
+        run: npm run build
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{secrets.AWS_GITHUB_ACTIONS_S3_ROLE}}
+
+      - name: Deploy to S3
+        run: |
+          aws s3 sync panic-necklace/out s3://discreta-website-prod --delete
+
+      - name: Invalidate CloudFront cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} \
+            -- paths "/*"
+
+      
+
+
+
+
+
+    
+
