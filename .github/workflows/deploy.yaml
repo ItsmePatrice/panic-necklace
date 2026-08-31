@@ -25,11 +25,9 @@ jobs:
           node-version: '24' 
 
       - name: Install dependencies
-        working-directory: panic-necklace
         run: npm ci
 
       - name: Build project
-        working-directory: panic-necklace
         run: npm run build
 
       - name: Configure AWS credentials
@@ -39,7 +37,7 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync panic-necklace/out s3://discreta-website-prod --delete
+          aws s3 sync out s3://discreta-website-prod --delete
 
       - name: Invalidate CloudFront cache
         run: |
