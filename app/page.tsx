@@ -7,7 +7,7 @@ import LanguageSwitcher from './components/LanguageSwitcher';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen bg-[#050816] text-white selection:bg-sky-400/40 selection:text-white">
       <LanguageSwitcher />
       <Hero />
       <Mission />

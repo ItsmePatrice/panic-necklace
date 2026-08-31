@@ -7,96 +7,95 @@ export default function Hero() {
   const { t } = useLanguage();
 
   const scrollToProduct = () => {
-    const productSection = document.querySelector('#reality-check');
-    productSection?.scrollIntoView({ behavior: 'smooth' });
+    const productSection = document.querySelector('#product-section');
+    productSection?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 py-16 sm:py-20 bg-black overflow-hidden">
-      {/* Animated Background Elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-purple-900/5 via-transparent to-blue-900/5 animate-pulse"></div>
-      </div>
+    <section className="relative overflow-hidden bg-[#050816]">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(59,130,246,0.22),_transparent_32%),radial-gradient(circle_at_bottom_right,_rgba(168,85,247,0.15),_transparent_30%)]" />
+      <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px)', backgroundSize: '72px 72px' }} />
 
-      <div className="relative z-10 max-w-4xl mx-auto text-center">
-        <div className="animate-fade-in-up mb-6 sm:mb-8">
-          <Image
-            src="/white_logo_for_website.png"
-            alt="Brand logo"
-            width={221}
-            height={72}
-            priority
-            className="mx-auto h-auto w-40 sm:w-52 md:w-56"
-          />
-        </div>
+      <div className="relative mx-auto flex min-h-screen max-w-6xl items-center justify-center px-4 py-20 sm:px-6 lg:px-8">
+        <div className="w-full text-center">
+          <div className="mb-8 flex justify-center animate-fade-in-up">
+            <div className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[10px] font-medium uppercase tracking-[0.32em] text-slate-300 backdrop-blur-sm">
+              Discreta
+            </div>
+          </div>
 
-        {/* Main text with staggered animation */}
-        <div className="animate-fade-in-up">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight text-white mb-6 sm:mb-8 font-light leading-tight">
-            {t.hero.mainText}
-          </h1>
-        </div>
-        
-        {/* Emphasis text with smaller font and delay */}
-        <div className="animate-fade-in-up animation-delay-300">
-          <p className="text-lg sm:text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto leading-relaxed px-2 mb-8 sm:mb-12 font-medium">
-            {t.hero.emphasis}
-          </p>
-        </div>
+          <div className="mb-8 animate-fade-in-up">
+            <Image
+              src="/white_logo_for_website.png"
+              alt="Brand logo"
+              width={221}
+              height={72}
+              priority
+              className="mx-auto h-auto w-40 sm:w-52 md:w-56"
+            />
+          </div>
 
-        {/* Call-to-action button */}
-        <div className="animate-fade-in-up animation-delay-600">
-          <button
-            onClick={scrollToProduct}
-            className="group inline-flex items-center px-8 py-4 text-lg font-medium text-black bg-white rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
-          >
-            <span className="mr-2">{t.hero.ctaButton}</span>
-            <svg 
-              className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" 
-              fill="none" 
-              stroke="currentColor" 
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </button>
+          <div className="animate-fade-in-up">
+            <h1 className="mx-auto max-w-5xl text-4xl font-light leading-[0.96] tracking-[-0.06em] text-white sm:text-5xl md:text-6xl lg:text-7xl">
+              {t.hero.mainText}
+            </h1>
+          </div>
+
+          <div className="mt-6 animate-fade-in-up animation-delay-300">
+            <p className="mx-auto max-w-2xl text-base leading-relaxed text-slate-300 sm:text-lg md:text-xl">
+              {t.hero.emphasis}
+            </p>
+          </div>
+
+
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="flex flex-col items-center text-white/60 hover:text-white/80 transition-colors cursor-pointer" onClick={scrollToProduct}>
-          <span className="text-sm mb-2 hidden sm:block">{t.hero.scrollHint}</span>
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce-slow">
+        <button
+          onClick={scrollToProduct}
+          className="flex flex-col items-center text-slate-300 transition hover:text-white"
+        >
+          <span className="mb-2 text-[10px] uppercase tracking-[0.28em] text-slate-400">{t.hero.scrollHint}</span>
+          <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v14m0 0l-5-5m5 5l5-5" />
           </svg>
-        </div>
+        </button>
       </div>
 
       <style jsx>{`
         @keyframes fade-in-up {
           from {
             opacity: 0;
-            transform: translateY(30px);
+            transform: translateY(22px);
           }
           to {
             opacity: 1;
             transform: translateY(0);
           }
         }
-        
-        .animate-fade-in-up {
-          animation: fade-in-up 0.8s ease-out forwards;
+
+        @keyframes bounce-slow {
+          0%, 100% { transform: translate(-50%, 0); }
+          50% { transform: translate(-50%, 8px); }
         }
-        
+
+        .animate-fade-in-up {
+          animation: fade-in-up 0.75s ease-out forwards;
+        }
+
         .animation-delay-300 {
           animation-delay: 0.3s;
           opacity: 0;
         }
-        
+
         .animation-delay-600 {
           animation-delay: 0.6s;
           opacity: 0;
+        }
+
+        .animate-bounce-slow {
+          animation: bounce-slow 2.2s ease-in-out infinite;
         }
       `}</style>
     </section>

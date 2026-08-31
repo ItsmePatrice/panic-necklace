@@ -6,39 +6,27 @@ export default function Footer() {
   const { t } = useLanguage();
 
   return (
-    <footer className="py-12 px-4 bg-gray-900 border-t border-gray-700">
-      <div className="max-w-6xl mx-auto">
+    <footer className="border-t border-white/10 bg-[#040816] px-4 py-12 sm:py-16">
+      <div className="mx-auto max-w-6xl">
         <div className="text-center">
           <div className="mb-8">
-            <h3 className="text-2xl font-light text-white mb-2">
-              {t.footer.brandName}
-            </h3>
-            <p className="text-gray-300">
-              {t.footer.tagline}
-            </p>
+            <h3 className="mb-2 text-2xl font-light tracking-[-0.04em] text-white">{t.footer.brandName}</h3>
+            <p className="text-slate-300">{t.footer.tagline}</p>
           </div>
         </div>
-        
-        <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-          <p className="text-sm text-gray-400">
-            {t.footer.copyright}
-            <span className="mx-2">|</span>
-            <a href="/privacy" className="text-gray-400 hover:text-white underline">
-              {t.footer.privacyPolicy}
-            </a>
-            <span className="mx-2">|</span>
-            <a href="/terms" className="text-gray-400 hover:text-white underline">
-              {t.footer.termsOfService}
-            </a>
-            <span className="mx-2">|</span>
-            <a href="/support" className="text-gray-400 hover:text-white underline">
-              {t.footer.support}
-            </a>
-            <span className="mx-2">|</span>
-            <a href="/account-deletion" className="text-gray-400 hover:text-white underline">
-              {t.footer.accountDeletion}
-            </a>
-          </p>
+
+        <div className="border-t border-white/10 pt-8">
+          <div className="flex flex-wrap items-center justify-center gap-2 text-sm text-slate-400">
+            <span>{t.footer.copyright}</span>
+            <span className="text-slate-600">|</span>
+            <a href="/privacy" className="transition hover:text-white underline-offset-2 hover:underline">{t.footer.privacyPolicy}</a>
+            <span className="text-slate-600">|</span>
+            <a href="/terms" className="transition hover:text-white underline-offset-2 hover:underline">{t.footer.termsOfService}</a>
+            <span className="text-slate-600">|</span>
+            <a href="/support" className="transition hover:text-white underline-offset-2 hover:underline">{t.footer.support}</a>
+            <span className="text-slate-600">|</span>
+            <a href="/account-deletion" className="transition hover:text-white underline-offset-2 hover:underline">{t.footer.accountDeletion}</a>
+          </div>
         </div>
       </div>
     </footer>
