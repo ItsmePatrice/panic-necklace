@@ -1,36 +1,208 @@
-This is a [Next.js](https://nextjs.org) landing page for Discreta, a discreet safety device system that pairs with an Android app to keep emergency contacts informed and your location visible when you need it most.
+# Discreta - Production Landing Page
 
-## Getting Started
+**Discreta** is a personal safety system designed for professionals who work alone. A discreet physical device pairs with a mobile application to provide emergency contacts with the information they need when a situation requires immediate attention.
 
-First, run the development server:
+This repository contains the **production landing page** for Discreta.
+
+🌐 **Live:** https://discreta.ca
+
+## 🚀 What I Built
+
+I designed and developed the website from the ground up using **Next.js and TypeScript**, then built the AWS infrastructure and deployment pipeline around it.
+
+The website is a **static Next.js export**, which allows it to be hosted on Amazon S3 while using CloudFront as the public-facing CDN.
+
+The deployment is automated through **GitHub Actions** using AWS IAM and GitHub's OpenID Connect (OIDC) authentication. No long-lived AWS credentials are stored in GitHub.
+
+### My work on the project
+
+* Developed the website using **Next.js + TypeScript**
+* Built a responsive landing page for the Discreta product
+* Configured Next.js for static site generation
+* Designed the AWS hosting architecture
+* Provisioned infrastructure with **Terraform**
+* Configured **Amazon S3** to host the static website
+* Configured **Amazon CloudFront** as the CDN and public entry point
+* Configured a **CloudFront Function** to handle clean URLs such as `/privacy`
+* Built a **GitHub Actions CI/CD pipeline**
+* Implemented GitHub to AWS authentication using **OIDC**
+* Configured CloudFront cache invalidation after deployments
+* Connected the production deployment to **discreta.ca**
+
+## 🏗️ Architecture
+
+```text
+                     GitHub
+                        │
+                        │ Push / Release
+                        ▼
+               ┌─────────────────┐
+               │ GitHub Actions  │
+               │                 │
+               │ npm ci          │
+               │ npm run build   │
+               └────────┬────────┘
+                        │
+                   GitHub OIDC
+                        │
+                        ▼
+               ┌─────────────────┐
+               │    AWS IAM      │
+               │                 │
+               │ Temporary       │
+               │ credentials     │
+               └────────┬────────┘
+                        │
+                        ▼
+               ┌─────────────────┐
+               │   Amazon S3     │
+               │                 │
+               │ Static Next.js  │
+               │ export          │
+               └────────┬────────┘
+                        │
+                        ▼
+               ┌─────────────────┐
+               │ Amazon CloudFront│
+               │                 │
+               │ CDN + HTTPS     │
+               │ Edge caching    │
+               └────────┬────────┘
+                        │
+                        ▼
+                   discreta.ca
+```
+
+### Why CloudFront?
+
+Instead of serving the website directly from S3, CloudFront sits in front of the bucket and distributes cached content through AWS edge locations.
+
+This provides:
+
+* Lower latency for visitors
+* Global content distribution
+* HTTPS
+* Caching of static assets
+* Support for a custom domain
+* A more secure architecture where the S3 bucket does not need to be publicly exposed
+
+The architecture also uses **Origin Access Control (OAC)** so CloudFront can access the S3 bucket while direct public access to the bucket remains restricted.
+
+## 🔐 CI/CD and AWS Security
+
+The deployment pipeline uses **GitHub Actions + AWS IAM OIDC**.
+
+Instead of storing an AWS access key and secret in GitHub, GitHub Actions requests a short-lived identity token and uses it to assume a dedicated IAM role.
+
+```text
+GitHub Actions
+      │
+      │ OIDC token
+      ▼
+AWS IAM
+      │
+      │ AssumeRoleWithWebIdentity
+      ▼
+Temporary AWS credentials
+      │
+      ├── S3 deployment
+      │
+      └── CloudFront invalidation
+```
+
+The deployment role follows the principle of **least privilege**, with permissions limited to the resources required to deploy the website and invalidate the CloudFront cache.
+
+The infrastructure is defined as code using **Terraform**, making the AWS environment reproducible and version controlled.
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* **Next.js**
+* **React**
+* **TypeScript**
+* Static Site Generation
+* Responsive design
+
+### Cloud and Infrastructure
+
+* **Amazon S3**
+* **Amazon CloudFront**
+* **AWS IAM**
+* **AWS Certificate Manager**
+* **Terraform**
+
+### DevOps
+
+* **GitHub Actions**
+* GitHub OIDC
+* Automated builds
+* Automated S3 deployments
+* CloudFront cache invalidation
+
+## 📦 Local Development
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ItsmePatrice/panic-necklace.git
+cd panic-necklace
+```
+
+Install dependencies:
+
+```bash
+npm ci
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The website will be available at:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏭 Production Build
 
-## Learn More
+The website uses Next.js static export:
 
-To learn more about Next.js, take a look at the following resources:
+```ts
+const nextConfig: NextConfig = {
+  output: "export",
+};
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+A production build can be generated with:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run build
+```
 
-## Deploy on Vercel
+This produces the static website in the `out/` directory.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The generated files are then synchronized with the production S3 bucket and CloudFront is invalidated so visitors receive the latest version.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌎 Production
+
+The website is currently hosted at:
+
+**https://discreta.ca**
+
+The production infrastructure is managed through Terraform and the website deployment is automated through GitHub Actions.
+
+## 💡 About Discreta
+
+The website is only one component of the larger Discreta project.
+
+The underlying product combines:
+
+**Physical device + Mobile application + Cloud backend**
+
+The goal is to provide professionals working alone with a discreet way to trigger an emergency response while keeping trusted contacts informed of their location.
+
+This project has given me hands-on experience across the entire software delivery lifecycle, from application development to cloud infrastructure, CI/CD, security, networking, and production deployment.
