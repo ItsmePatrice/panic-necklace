@@ -30,6 +30,8 @@ The deployment is automated through **GitHub Actions** using AWS IAM and GitHub'
 * Connected the production deployment to **discreta.ca**
 
 ## 🏗️ Architecture
+```markdown
+## 🏗️ Architecture
 
 ```mermaid
 flowchart LR
