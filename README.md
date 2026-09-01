@@ -31,47 +31,15 @@ The deployment is automated through **GitHub Actions** using AWS IAM and GitHub'
 
 ## 🏗️ Architecture
 
-```text
-                     GitHub
-                        │
-                        │ Push / Release
-                        ▼
-               ┌─────────────────┐
-               │ GitHub Actions  │
-               │                 │
-               │ npm ci          │
-               │ npm run build   │
-               └────────┬────────┘
-                        │
-                   GitHub OIDC
-                        │
-                        ▼
-               ┌─────────────────┐
-               │    AWS IAM      │
-               │                 │
-               │ Temporary       │
-               │ credentials     │
-               └────────┬────────┘
-                        │
-                        ▼
-               ┌─────────────────┐
-               │   Amazon S3     │
-               │                 │
-               │ Static Next.js  │
-               │ export          │
-               └────────┬────────┘
-                        │
-                        ▼
-               ┌─────────────────┐
-               │ Amazon CloudFront│
-               │                 │
-               │ CDN + HTTPS     │
-               │ Edge caching    │
-               └────────┬────────┘
-                        │
-                        ▼
-                   discreta.ca
-```
+```mermaid
+flowchart LR
+    GitHub[GitHub] --> Actions[GitHub Actions]
+    Actions -->|OIDC| IAM[AWS IAM]
+    IAM --> S3[Amazon S3]
+    Actions -->|Invalidate cache| CF[Amazon CloudFront]
+
+    User[Visitor] -->|HTTPS| CF
+    CF -->|Origin Access Control| S3
 
 ### Why CloudFront?
 
