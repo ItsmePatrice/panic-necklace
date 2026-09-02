@@ -6,7 +6,7 @@ This repository contains the **production landing page** for Discreta.
 
 🌐 **Live:** https://discreta.ca
 
-## 🚀 What I Built
+## What I Built
 
 I designed and developed the website from the ground up using **Next.js and TypeScript**, then built the AWS infrastructure and deployment pipeline around it.
 
@@ -29,7 +29,7 @@ The deployment is automated through **GitHub Actions** using AWS IAM and GitHub'
 * Configured CloudFront cache invalidation after deployments
 * Connected the production deployment to **discreta.ca**
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart LR
@@ -57,7 +57,7 @@ This provides:
 
 The architecture also uses **Origin Access Control (OAC)** so CloudFront can access the S3 bucket while direct public access to the bucket remains restricted.
 
-## 🔐 CI/CD and AWS Security
+## CI/CD and AWS Security
 
 The deployment pipeline uses **GitHub Actions + AWS IAM OIDC**.
 
@@ -83,7 +83,7 @@ The deployment role follows the principle of **least privilege**, with permissio
 
 The infrastructure is defined as code using **Terraform**, making the AWS environment reproducible and version controlled.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -109,7 +109,7 @@ The infrastructure is defined as code using **Terraform**, making the AWS enviro
 * Automated S3 deployments
 * CloudFront cache invalidation
 
-## 📦 Local Development
+## Local Development
 
 Clone the repository:
 
@@ -136,7 +136,7 @@ The website will be available at:
 http://localhost:3000
 ```
 
-## 🏭 Production Build
+## Production Build
 
 The website uses Next.js static export:
 
